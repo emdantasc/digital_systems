@@ -1,0 +1,47 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m328pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\M328PDEF.INC</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\Debug\Atividade11.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Atividade11.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Atividade11.map</FILE>
+  <FILE>Atividade11.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <setup><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</FILE><LINE>15</LINE></setup>
+  <start><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</FILE><LINE>25</LINE></start>
+  <compare><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</FILE><LINE>28</LINE></compare>
+  <write_zero><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</FILE><LINE>77</LINE></write_zero>
+  <write_one><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</FILE><LINE>82</LINE></write_one>
+  <write_two><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</FILE><LINE>87</LINE></write_two>
+  <write_three><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</FILE><LINE>92</LINE></write_three>
+  <write_four><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</FILE><LINE>97</LINE></write_four>
+  <write_five><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</FILE><LINE>102</LINE></write_five>
+  <write_six><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</FILE><LINE>107</LINE></write_six>
+  <write_seven><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</FILE><LINE>112</LINE></write_seven>
+  <write_eight><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</FILE><LINE>117</LINE></write_eight>
+  <write_nine><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</FILE><LINE>122</LINE></write_nine>
+  <write_a><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</FILE><LINE>127</LINE></write_a>
+  <write_b><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</FILE><LINE>132</LINE></write_b>
+  <write_c><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</FILE><LINE>137</LINE></write_c>
+  <write_d><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</FILE><LINE>142</LINE></write_d>
+  <write_e><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</FILE><LINE>147</LINE></write_e>
+  <write_f><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</FILE><LINE>152</LINE></write_f>
+  <export><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 11\Atividade11\main.asm</FILE><LINE>157</LINE></export>
+ </LABELS>
+</ASSEMBLER_INFO>

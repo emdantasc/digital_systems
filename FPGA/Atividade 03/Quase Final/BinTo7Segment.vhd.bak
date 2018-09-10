@@ -1,0 +1,58 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity BinTo7Segment is
+  port(bin_in: in std_logic_vector(3 downto 0);
+      sevseg_out: out std_logic_vector(6 downto 0));
+end BinTo7Segment;
+
+architecture ckt of BinTo7Segment is
+  signal sevseg: std_logic_vector(6 downto 0);
+
+begin
+  
+  --sevseg_out(0)<=(bin_in(1) and not bin_in(0)) or (not bin_in(3) and bin_in(1)) or (bin_in(2) and bin_in(1)) or (bin_in(3) and not bin_in(0)) or (not bin_in(3) and (bin_in(2) xnor bin_in(0))) or (bin_in(3) and not bin_in(2) and not bin_in(1));
+  --sevseg_out(1)<=(not bin_in(3) and not bin_in(2)) or (not bin_in(2) and not bin_in(0)) or (not bin_in(3) and not bin_in(1) and not bin_in(0)) or (not bin_in(3) and bin_in(1) and bin_in(0)) or (bin_in(3) and not bin_in(1) and bin_in(0));
+  --sevseg_out(2)<=(not bin_in(3) and (bin_in(2) or not bin_in(1) or bin_in(0))) or (bin_in(3) and not bin_in(2)) or (not bin_in(1) and bin_in(0));
+  --sevseg_out(3)<=(not bin_in(2) and (bin_in(1) xnor bin_in(0))) or (bin_in(2) and (bin_in(1) xor bin_in(0))) or (not bin_in(0) and (bin_in(3) xor bin_in(1)));
+  --sevseg_out(4)<=(bin_in(3) and bin_in(2)) or (bin_in(3) and bin_in(1)) or (bin_in(1) and not bin_in(0)) or (not bin_in(2) and not bin_in(0));
+  --sevseg_out(5)<=(not bin_in(1) and not bin_in(0)) or (bin_in(3) and not bin_in(2)) or (bin_in(2) and not bin_in(0)) or (not bin_in(3) and bin_in(2) and not bin_in(1)) or (bin_in(3) and bin_in(1) and bin_in(0));
+  --sevseg_out(6)<=(bin_in(1) and not bin_in(0)) or (bin_in(3) and not bin_in(2)) or (bin_in(3) and bin_in(0)) or (not bin_in(2) and bin_in(1)) or (not bin_in(3) and bin_in(2) and not bin_in(1));
+
+	with bin_in select sevseg<=
+		--"1111110" when "0000",
+			"0111111" when "0000",
+		--"0110000" when "0001",
+			"0000110" when "0001",
+		--"1101101" when "0010",
+			"1011011" when "0010",
+		--"1111001" when "0011",
+			"1001111" when "0011",
+	  	--"0110011" when "0100",
+			"1100110" when "0100",
+		--"1011011" when "0101",
+			"1101101" when "0101",
+		--"1011111" when "0110",
+			"1111101" when "0110",
+		--"1110000" when "0111",
+			"0000111" when "0111",
+		--"1111111" when "1000",
+			"1111111" when "1000",
+		--"1110011" when "1001",
+			"1100111" when "1001",
+		--"1110111" when "1010",
+			"1110111" when "1010",
+		--"0011111" when "1011",
+			"1111100" when "1011",
+		--"1001110" when "1100",
+			"0111001" when "1100",
+		--"0111101" when "1101",
+			"1011110" when "1101",
+		--"1001111" when "1110",
+			"1111001" when "1110",
+		--"1000111" when "1111",
+			"1110001" when "1111",
+			"0000000" when others;
+
+  sevseg_out<=not sevseg;
+end ckt;

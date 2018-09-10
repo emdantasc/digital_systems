@@ -1,0 +1,33 @@
+{d:/Desktop/Atividade 08/InstructionROM.vhd} {1 {vcom -work work -2002 -explicit {D:/Desktop/Atividade 08/InstructionROM.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity InstructionROM
+-- Compiling architecture SYN of instructionrom
+
+} {} {}} {D:/Desktop/Atividade 08/processor_machine.vhd} {0 {vcom -work work -2002 -explicit {D:/Desktop/Atividade 08/processor_machine.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+** Error: D:/Desktop/Atividade 08/processor_machine.vhd(2): (vcom-1491) Empty source files.
+
+
+} {4.0 5.0} {}} {d:/Desktop/Atividade 08/nbitregister.vhd} {1 {vcom -work work -2002 -explicit {D:/Desktop/Atividade 08/nbitregister.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitreg
+-- Compiling architecture behaviour of nbitreg
+
+} {} {}} {d:/Desktop/Atividade 08/DataMemory.vhd} {1 {vcom -work work -2002 -explicit {D:/Desktop/Atividade 08/DataMemory.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DataMemory
+-- Compiling architecture SYN of datamemory
+
+} {} {}}

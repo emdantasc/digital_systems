@@ -1,0 +1,93 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'clock_generator:clock_20|clock_signal'
+Slack : -8.164
+TNS   : -368.840
+
+Type  : Slow Model Setup 'clock27M'
+Slack : -2.414
+TNS   : -72.454
+
+Type  : Slow Model Setup 'clock_generator:clock_40|clock_signal'
+Slack : -0.177
+TNS   : -0.833
+
+Type  : Slow Model Hold 'clock27M'
+Slack : -2.522
+TNS   : -5.034
+
+Type  : Slow Model Hold 'clock_generator:clock_20|clock_signal'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'clock_generator:clock_40|clock_signal'
+Slack : 0.650
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'clock_generator:clock_20|clock_signal'
+Slack : -0.866
+TNS   : -65.490
+
+Type  : Slow Model Removal 'clock_generator:clock_20|clock_signal'
+Slack : 1.035
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'clock_generator:clock_40|clock_signal'
+Slack : -1.423
+TNS   : -19.922
+
+Type  : Slow Model Minimum Pulse Width 'clock27M'
+Slack : -1.380
+TNS   : -44.380
+
+Type  : Slow Model Minimum Pulse Width 'clock_generator:clock_20|clock_signal'
+Slack : -0.500
+TNS   : -132.000
+
+Type  : Fast Model Setup 'clock_generator:clock_20|clock_signal'
+Slack : -3.569
+TNS   : -118.644
+
+Type  : Fast Model Setup 'clock27M'
+Slack : -0.632
+TNS   : -11.988
+
+Type  : Fast Model Setup 'clock_generator:clock_40|clock_signal'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Fast Model Hold 'clock27M'
+Slack : -1.567
+TNS   : -3.124
+
+Type  : Fast Model Hold 'clock_generator:clock_20|clock_signal'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'clock_generator:clock_40|clock_signal'
+Slack : 0.308
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'clock_generator:clock_20|clock_signal'
+Slack : 0.012
+TNS   : 0.000
+
+Type  : Fast Model Removal 'clock_generator:clock_20|clock_signal'
+Slack : 0.584
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'clock_generator:clock_40|clock_signal'
+Slack : -1.423
+TNS   : -19.922
+
+Type  : Fast Model Minimum Pulse Width 'clock27M'
+Slack : -1.380
+TNS   : -44.380
+
+Type  : Fast Model Minimum Pulse Width 'clock_generator:clock_20|clock_signal'
+Slack : -0.500
+TNS   : -132.000
+
+------------------------------------------------------------

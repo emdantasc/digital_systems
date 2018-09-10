@@ -1,0 +1,525 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.0sp1
+Eadder
+Z0 w1503153211
+Z1 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\Iago\Desktop\Desktop - 2\SD\Atividade 06
+Z6 8C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/nbitadder.vhd
+Z7 FC:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/nbitadder.vhd
+l0
+L5
+VibdX916fJofBTDVSB>JU^1
+Z8 OV;C;10.1d;51
+32
+Z9 !s108 1503339769.798000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/nbitadder.vhd|
+Z11 !s107 C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/nbitadder.vhd|
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+!s100 Z`?Zn@KN^_6DA^BIO=TXJ2
+!i10b 1
+Abehaviour
+R1
+R2
+R3
+R4
+DEx4 work 5 adder 0 22 ibdX916fJofBTDVSB>JU^1
+l17
+L13
+VNTHNZ4biG>Nj[YYXVUQWg0
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 L4_400UCc?OBKhJ9zDV6A0
+!i10b 1
+Ebinbcd
+Z14 w1503339752
+R3
+R4
+R5
+Z15 8C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/BinBCD.vhd
+Z16 FC:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/BinBCD.vhd
+l0
+L4
+VLY]_Ma7naiKDTg8XOUX5i3
+R8
+32
+Z17 !s108 1503346336.861000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/BinBCD.vhd|
+Z19 !s107 C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/BinBCD.vhd|
+R12
+R13
+!s100 IZTBV:g^lkd413eUI8FW90
+!i10b 1
+Aarrange
+R3
+R4
+DEx4 work 6 binbcd 0 22 LY]_Ma7naiKDTg8XOUX5i3
+l18
+L9
+VioP6NhzYl^8U[<1BJ17Ki0
+R8
+32
+R17
+R18
+R19
+R12
+R13
+!s100 XXT:4A>l9UUgfIoT]XZPZ1
+!i10b 1
+Ebinbcdbox
+Z20 w1503153211
+R3
+R4
+R5
+Z21 8C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/binbcdbox.vhd
+Z22 FC:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/binbcdbox.vhd
+l0
+L4
+VnM4n0JYgWfANZY52nFnOi1
+R8
+32
+Z23 !s108 1503346338.417000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/binbcdbox.vhd|
+Z25 !s107 C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/binbcdbox.vhd|
+R12
+R13
+!s100 ;0NSiZa59Rc_J?Q3NJIbl2
+!i10b 1
+Ackt
+R3
+R4
+DEx4 work 9 binbcdbox 0 22 nM4n0JYgWfANZY52nFnOi1
+l11
+L9
+V7Mon7Lz?2jULOal1YE`S;1
+R8
+32
+R23
+R24
+R25
+R12
+R13
+!s100 URBXWdhK=IS7PS>[m290B0
+!i10b 1
+Ebindisplay
+R20
+R3
+R4
+R5
+Z26 8C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/BinDisplay.vhd
+Z27 FC:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/BinDisplay.vhd
+l0
+L4
+VO@YZ2ZS2zBn09:ZFA_Abg0
+R8
+32
+Z28 !s108 1503346339.899000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/BinDisplay.vhd|
+Z30 !s107 C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/BinDisplay.vhd|
+R12
+R13
+!s100 LIK4hnH20ggUQQGa2PXg63
+!i10b 1
+Aarrange
+R3
+R4
+DEx4 work 10 bindisplay 0 22 O@YZ2ZS2zBn09:ZFA_Abg0
+l23
+L9
+VQ5jdSN;hibbeYJeBf4@W]3
+R8
+32
+R28
+R29
+R30
+R12
+R13
+!s100 i<@WmTNejL0FcERoIY3Q_2
+!i10b 1
+Ebinto7segment
+Z31 w1503324800
+R3
+R4
+R5
+Z32 8C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/BinTo7Segment.vhd
+Z33 FC:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/BinTo7Segment.vhd
+l0
+L4
+VZM7@=h<e?:fdB:6g<0Uc_2
+R8
+32
+Z34 !s108 1503346341.384000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/BinTo7Segment.vhd|
+Z36 !s107 C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/BinTo7Segment.vhd|
+R12
+R13
+!s100 WA0?zDGLl52J^>k5HJVGP3
+!i10b 1
+Ackt
+R3
+R4
+DEx4 work 13 binto7segment 0 22 ZM7@=h<e?:fdB:6g<0Uc_2
+l12
+L9
+VWL11Kf3[Edj;N<jS?>]5D1
+R8
+32
+R34
+R35
+R36
+R12
+R13
+!s100 KTDSz10KUThlWjjS3ZDO32
+!i10b 1
+Ebotaosincrono
+R20
+R3
+R4
+R5
+Z37 8C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/botaosincrono.vhd
+Z38 FC:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/botaosincrono.vhd
+l0
+L4
+VdB;B>SGz@l^D=Zk@?MoQ02
+R8
+32
+Z39 !s108 1503346342.857000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/botaosincrono.vhd|
+Z41 !s107 C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/botaosincrono.vhd|
+R12
+R13
+!s100 TM482cYX>4T8[3T4^[m1]1
+!i10b 1
+Amde
+R3
+R4
+DEx4 work 13 botaosincrono 0 22 dB;B>SGz@l^D=Zk@?MoQ02
+l14
+L9
+V_;@I8WZG74mYc1UK]z7<Q2
+R8
+32
+R39
+R40
+R41
+R12
+R13
+!s100 SO6O?fFNJ>IH@H=^:]R700
+!i10b 1
+Eclock_generator
+Z42 w1503152644
+Z43 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R3
+R4
+R5
+Z44 8C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/clockdiv.vhd
+Z45 FC:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/clockdiv.vhd
+l0
+L5
+V0kbQSX`;LQoPgM==f<H]a1
+R8
+32
+Z46 !s108 1503346344.355000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/clockdiv.vhd|
+Z48 !s107 C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/clockdiv.vhd|
+R12
+R13
+!s100 Y[R07<i;J6S[HH?1niVGG3
+!i10b 1
+Artl
+R43
+R3
+R4
+DEx4 work 15 clock_generator 0 22 0kbQSX`;LQoPgM==f<H]a1
+l29
+L12
+VKWll[KC>9cjScSIX9?ozH2
+R8
+32
+R46
+R47
+R48
+R12
+R13
+!s100 glD?]<J7eaR4^kLbjVF0<3
+!i10b 1
+Emaquinatroco
+Z49 w1503347891
+R3
+R4
+R5
+Z50 8C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/maquinatroco.vhd
+Z51 FC:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/maquinatroco.vhd
+l0
+L4
+V=lddNZkAHQcehI;RRTF5n3
+!s100 CP?ZV<]zMRo8`@MVNZYoU0
+R8
+32
+!i10b 1
+Z52 !s108 1503347914.056000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/maquinatroco.vhd|
+Z54 !s107 C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/maquinatroco.vhd|
+R12
+R13
+Aarrangment
+R3
+R4
+Z55 DEx4 work 12 maquinatroco 0 22 =lddNZkAHQcehI;RRTF5n3
+l65
+L14
+V97PJ=H[62Pch7`5KhQURa3
+!s100 zCB^BBeDhWbVR]j=O8jV[0
+R8
+32
+!i10b 1
+R52
+R53
+R54
+R12
+R13
+Enbitadder
+Z56 w1503344547
+R1
+R2
+R3
+R4
+R5
+Z57 8C:\Users\Iago\Desktop\Desktop - 2\SD\Atividade 06\nbitadder.vhd
+Z58 FC:\Users\Iago\Desktop\Desktop - 2\SD\Atividade 06\nbitadder.vhd
+l0
+L5
+VKYI`4JcMUBfnReznOI0`;2
+R8
+32
+Z59 !s108 1503346345.871000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\Iago\Desktop\Desktop - 2\SD\Atividade 06\nbitadder.vhd|
+Z61 !s107 C:\Users\Iago\Desktop\Desktop - 2\SD\Atividade 06\nbitadder.vhd|
+R12
+R13
+!s100 W5<FF>a6B@QG2lomkF^i?2
+!i10b 1
+Abehaviour
+R1
+R2
+R3
+R4
+DEx4 work 9 nbitadder 0 22 KYI`4JcMUBfnReznOI0`;2
+l17
+L13
+V64JNfSMW`_5K6T6zUSj210
+R8
+32
+R59
+R60
+R61
+R12
+R13
+!s100 UaRfi?QXL6GARUCcBYFc@0
+!i10b 1
+Enbitcompmag
+R20
+R1
+R2
+R3
+R4
+R5
+Z62 8C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/nbitcompmag.vhd
+Z63 FC:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/nbitcompmag.vhd
+l0
+L5
+VVO70`l1569[:W1CV6]^JP1
+R8
+32
+Z64 !s108 1503346347.344000
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/nbitcompmag.vhd|
+Z66 !s107 C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/nbitcompmag.vhd|
+R12
+R13
+!s100 OH>mUdTM1HMG?k923a`Og1
+!i10b 1
+Acircuit
+R1
+R2
+R3
+R4
+DEx4 work 11 nbitcompmag 0 22 VO70`l1569[:W1CV6]^JP1
+l15
+L11
+VFT?IfSe5K;@il2D78I3ZR0
+R8
+32
+R64
+R65
+R66
+R12
+R13
+!s100 UL[Y>_d84gc<aR`FQlPkA3
+!i10b 1
+Enbitcounter
+R20
+R1
+R2
+R3
+R4
+R5
+Z67 8C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/nbitcounter.vhd
+Z68 FC:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/nbitcounter.vhd
+l0
+L5
+Vg0=A3[YkKeUi^77l0oePH1
+R8
+32
+Z69 !s108 1503346348.863000
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/nbitcounter.vhd|
+Z71 !s107 C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/nbitcounter.vhd|
+R12
+R13
+!s100 LLeW7K5W@=h^UC_Oem:J_1
+!i10b 1
+Abehv
+R1
+R2
+R3
+R4
+DEx4 work 11 nbitcounter 0 22 g0=A3[YkKeUi^77l0oePH1
+l14
+L12
+V;R@MHRK9No4fEFGOT:>H[3
+R8
+32
+R69
+R70
+R71
+R12
+R13
+!s100 cZj?22c5ZUa3m68:Di1CL0
+!i10b 1
+Enbitmux
+Z72 w1503325621
+R1
+R2
+R3
+R4
+R5
+Z73 8C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/nbitmux.vhd
+Z74 FC:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/nbitmux.vhd
+l0
+L5
+VMa9TMH?PYoINjNc0A<gFT1
+R8
+32
+Z75 !s108 1503346350.403000
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/nbitmux.vhd|
+Z77 !s107 C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/nbitmux.vhd|
+R12
+R13
+!s100 ldnAi3g8]Uo?64HlBjYhG1
+!i10b 1
+Acircuit
+R1
+R2
+R3
+R4
+DEx4 work 7 nbitmux 0 22 Ma9TMH?PYoINjNc0A<gFT1
+l14
+L12
+VghnLjQgkM_N86[T0CoFH70
+R8
+32
+R75
+R76
+R77
+R12
+R13
+!s100 <iDRXljLP8cKoA;Af]RlU3
+!i10b 1
+Enbitreg
+R20
+R1
+R2
+R3
+R4
+R5
+Z78 8C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/nbitregister.vhd
+Z79 FC:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/nbitregister.vhd
+l0
+L5
+V?zgUNTOVb7=8m90>I>4>c1
+R8
+32
+Z80 !s108 1503346351.894000
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/nbitregister.vhd|
+Z82 !s107 C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/nbitregister.vhd|
+R12
+R13
+!s100 oQMI8ineJkej3mOCzVWI82
+!i10b 1
+Abehaviour
+R1
+R2
+R3
+R4
+DEx4 work 7 nbitreg 0 22 ?zgUNTOVb7=8m90>I>4>c1
+l13
+L12
+Vh05K916kZR923nihQo9Lz1
+R8
+32
+R80
+R81
+R82
+R12
+R13
+!s100 AkeH0CU1I:nKke]egYgHz2
+!i10b 1
+Esimrom
+Z83 w1503339668
+R1
+R2
+R3
+R4
+R5
+Z84 8C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/simrom.vhd
+Z85 FC:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/simrom.vhd
+l0
+L5
+VYCHnnO07LCdjC<4?@eZMg2
+R8
+32
+Z86 !s108 1503346353.397000
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/simrom.vhd|
+Z88 !s107 C:/Users/Iago/Desktop/Desktop - 2/SD/Atividade 06/simrom.vhd|
+R12
+R13
+!s100 Q<V5k6n5>caShZ`aA1?C@1
+!i10b 1
+Abhv
+R1
+R2
+R3
+R4
+DEx4 work 6 simrom 0 22 YCHnnO07LCdjC<4?@eZMg2
+l14
+L12
+VbK6B>=G><2QnHeB_;oCB>1
+R8
+32
+R86
+R87
+R88
+R12
+R13
+!s100 zc1RJmkjIB:^>ZAkWXY[P0
+!i10b 1

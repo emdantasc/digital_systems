@@ -1,0 +1,93 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'SW17'
+Slack : -12.622
+TNS   : -2636.029
+
+Type  : Slow Model Setup 'clock_generator:clk50|clock_signal'
+Slack : -8.782
+TNS   : -254.271
+
+Type  : Slow Model Setup 'clk_27M'
+Slack : -2.426
+TNS   : -71.340
+
+Type  : Slow Model Hold 'clk_27M'
+Slack : -2.503
+TNS   : -2.503
+
+Type  : Slow Model Hold 'SW17'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'clock_generator:clk50|clock_signal'
+Slack : 2.645
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'SW17'
+Slack : -1.769
+TNS   : -491.049
+
+Type  : Slow Model Removal 'SW17'
+Slack : 2.517
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'clock_generator:clk50|clock_signal'
+Slack : -2.000
+TNS   : -324.000
+
+Type  : Slow Model Minimum Pulse Width 'SW17'
+Slack : -1.423
+TNS   : -309.990
+
+Type  : Slow Model Minimum Pulse Width 'clk_27M'
+Slack : -1.380
+TNS   : -45.380
+
+Type  : Fast Model Setup 'SW17'
+Slack : -4.924
+TNS   : -1007.638
+
+Type  : Fast Model Setup 'clock_generator:clk50|clock_signal'
+Slack : -3.831
+TNS   : -130.935
+
+Type  : Fast Model Setup 'clk_27M'
+Slack : -0.628
+TNS   : -11.729
+
+Type  : Fast Model Hold 'clk_27M'
+Slack : -1.551
+TNS   : -1.551
+
+Type  : Fast Model Hold 'SW17'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'clock_generator:clk50|clock_signal'
+Slack : 2.318
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'SW17'
+Slack : -0.659
+TNS   : -180.624
+
+Type  : Fast Model Removal 'SW17'
+Slack : 1.519
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'clock_generator:clk50|clock_signal'
+Slack : -2.000
+TNS   : -324.000
+
+Type  : Fast Model Minimum Pulse Width 'SW17'
+Slack : -1.423
+TNS   : -309.990
+
+Type  : Fast Model Minimum Pulse Width 'clk_27M'
+Slack : -1.380
+TNS   : -45.380
+
+------------------------------------------------------------

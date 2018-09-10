@@ -1,0 +1,9 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity main_troco is
+	port(
+			Key3, Key2, Key1, clock27M: in std_logic;
+			SW: in std_logic_vector(5 downto 0);
+			LEDR: out std_logic_vector(5 downto 0);
+			Hex0, Hex1, Hex2, Hex3: out std_logic_vector(6 downto 0));

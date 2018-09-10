@@ -1,0 +1,145 @@
+|cofre_main
+Key_0 => cofre:Safety.Key0
+Key_1 => cofre:Safety.Key1
+Key_2 => cofre:Safety.Key2
+Key_3 => cofre:Safety.Key3
+SW_0 => cofre:Safety.SW0
+SW_1 => cofre:Safety.SW1
+clk2 => CLK_Div:CLK_10.clk_in
+LDR_0 <= cofre:Safety.LDR0
+LDR_1 <= cofre:Safety.LDR1
+sev_segment[0] <= BinTo7Segment:Display.sevseg_out[0]
+sev_segment[1] <= BinTo7Segment:Display.sevseg_out[1]
+sev_segment[2] <= BinTo7Segment:Display.sevseg_out[2]
+sev_segment[3] <= BinTo7Segment:Display.sevseg_out[3]
+sev_segment[4] <= BinTo7Segment:Display.sevseg_out[4]
+sev_segment[5] <= BinTo7Segment:Display.sevseg_out[5]
+sev_segment[6] <= BinTo7Segment:Display.sevseg_out[6]
+
+
+|cofre_main|CLK_Div:CLK_10
+clk_in => ax.CLK
+clk_in => cnt[0].CLK
+clk_in => cnt[1].CLK
+clk_in => cnt[2].CLK
+clk_in => cnt[3].CLK
+clk_in => cnt[4].CLK
+clk_in => cnt[5].CLK
+clk_in => cnt[6].CLK
+clk_in => cnt[7].CLK
+clk_in => cnt[8].CLK
+clk_in => cnt[9].CLK
+clk_in => cnt[10].CLK
+clk_in => cnt[11].CLK
+clk_in => cnt[12].CLK
+clk_in => cnt[13].CLK
+clk_in => cnt[14].CLK
+clk_in => cnt[15].CLK
+clk_in => cnt[16].CLK
+clk_in => cnt[17].CLK
+clk_in => cnt[18].CLK
+clk_in => cnt[19].CLK
+clk_in => cnt[20].CLK
+clk_out <= ax.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cofre_main|cofre:Safety
+Key0 => botaosincrono:BS0.Key
+Key1 => botaosincrono:BS1.Key
+Key2 => botaosincrono:BS2.Key
+Key3 => botaosincrono:BS3.Key
+SW0 => Selector0.IN7
+SW0 => Selector6.IN2
+SW1 => botaosincrono:BS0.reset
+SW1 => botaosincrono:BS1.reset
+SW1 => botaosincrono:BS2.reset
+SW1 => botaosincrono:BS3.reset
+SW1 => state~3.DATAIN
+clk1 => botaosincrono:BS0.clk
+clk1 => botaosincrono:BS1.clk
+clk1 => botaosincrono:BS2.clk
+clk1 => botaosincrono:BS3.clk
+clk1 => LDR1.DATAIN
+clk1 => state~1.DATAIN
+LDR0 <= LDR0.DB_MAX_OUTPUT_PORT_TYPE
+LDR1 <= clk1.DB_MAX_OUTPUT_PORT_TYPE
+BCD[0] <= WideOr9.DB_MAX_OUTPUT_PORT_TYPE
+BCD[1] <= WideOr8.DB_MAX_OUTPUT_PORT_TYPE
+BCD[2] <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+BCD[3] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cofre_main|cofre:Safety|botaosincrono:BS0
+Key => estado.DATAB
+Key => estado.DATAA
+Key => estado.caso_a.DATAIN
+clk => estado~2.DATAIN
+reset => estado~4.DATAIN
+Key_sincrono <= Key_sincrono.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cofre_main|cofre:Safety|botaosincrono:BS1
+Key => estado.DATAB
+Key => estado.DATAA
+Key => estado.caso_a.DATAIN
+clk => estado~2.DATAIN
+reset => estado~4.DATAIN
+Key_sincrono <= Key_sincrono.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cofre_main|cofre:Safety|botaosincrono:BS2
+Key => estado.DATAB
+Key => estado.DATAA
+Key => estado.caso_a.DATAIN
+clk => estado~2.DATAIN
+reset => estado~4.DATAIN
+Key_sincrono <= Key_sincrono.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cofre_main|cofre:Safety|botaosincrono:BS3
+Key => estado.DATAB
+Key => estado.DATAA
+Key => estado.caso_a.DATAIN
+clk => estado~2.DATAIN
+reset => estado~4.DATAIN
+Key_sincrono <= Key_sincrono.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cofre_main|BinTo7Segment:Display
+bin_in[0] => Mux0.IN19
+bin_in[0] => Mux1.IN19
+bin_in[0] => Mux2.IN19
+bin_in[0] => Mux3.IN19
+bin_in[0] => Mux4.IN19
+bin_in[0] => Mux5.IN19
+bin_in[0] => Mux6.IN19
+bin_in[1] => Mux0.IN18
+bin_in[1] => Mux1.IN18
+bin_in[1] => Mux2.IN18
+bin_in[1] => Mux3.IN18
+bin_in[1] => Mux4.IN18
+bin_in[1] => Mux5.IN18
+bin_in[1] => Mux6.IN18
+bin_in[2] => Mux0.IN17
+bin_in[2] => Mux1.IN17
+bin_in[2] => Mux2.IN17
+bin_in[2] => Mux3.IN17
+bin_in[2] => Mux4.IN17
+bin_in[2] => Mux5.IN17
+bin_in[2] => Mux6.IN17
+bin_in[3] => Mux0.IN16
+bin_in[3] => Mux1.IN16
+bin_in[3] => Mux2.IN16
+bin_in[3] => Mux3.IN16
+bin_in[3] => Mux4.IN16
+bin_in[3] => Mux5.IN16
+bin_in[3] => Mux6.IN16
+sevseg_out[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+sevseg_out[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+sevseg_out[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+sevseg_out[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+sevseg_out[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+sevseg_out[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+sevseg_out[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

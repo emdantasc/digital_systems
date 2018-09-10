@@ -1,0 +1,9 @@
+
+State Machine - |main_processador|processador_machine:mchn|estado
+Name estado.add estado.store estado.load estado.decode estado.fetch estado.zero 
+estado.zero 0 0 0 0 0 0 
+estado.fetch 0 0 0 0 1 1 
+estado.decode 0 0 0 1 0 1 
+estado.load 0 0 1 0 0 1 
+estado.store 0 1 0 0 0 1 
+estado.add 1 0 0 0 0 1 

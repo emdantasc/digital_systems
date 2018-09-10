@@ -1,0 +1,20 @@
+
+State Machine - |main_vmachine|maquina_processador:mchn|state
+Name state.libere state.compare state.incremente state.espere state.zero 
+state.zero 0 0 0 0 0 
+state.espere 0 0 0 1 1 
+state.incremente 0 0 1 0 1 
+state.compare 0 1 0 0 1 
+state.libere 1 0 0 0 1 
+
+State Machine - |main_vmachine|maquina_processador:mchn|botaosincrono:BS00|estado
+Name estado.caso_c estado.caso_b estado.caso_a 
+estado.caso_a 0 0 0 
+estado.caso_b 0 1 1 
+estado.caso_c 1 0 1 
+
+State Machine - |main_vmachine|botaosincrono:sinc|estado
+Name estado.caso_c estado.caso_b estado.caso_a 
+estado.caso_a 0 0 0 
+estado.caso_b 0 1 1 
+estado.caso_c 1 0 1 

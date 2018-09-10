@@ -1,0 +1,395 @@
+m255
+K3
+z0
+13
+cModel Technology
+dC:\altera\13.0sp1
+Ealu
+Z0 w1504210118
+Z1 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dC:/Users/Iago/Desktop/Processador
+Z7 8C:/Users/Iago/Desktop/Processador/ALU.vhd
+Z8 FC:/Users/Iago/Desktop/Processador/ALU.vhd
+l0
+L6
+V9>UVT4oVTPn^hi@P=3Go90
+!s100 9k0CZiNWI29YR@ST;DVAF2
+Z9 OV;C;10.5b;63
+32
+Z10 !s110 1504210137
+!i10b 1
+Z11 !s108 1504210137.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Iago/Desktop/Processador/ALU.vhd|
+Z13 !s107 C:/Users/Iago/Desktop/Processador/ALU.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Aarrange
+R1
+R2
+R3
+R4
+R5
+Z16 DEx4 work 3 alu 0 22 9>UVT4oVTPn^hi@P=3Go90
+l88
+L28
+V?1z8L_NOV:Whhcg6zNBJS1
+!s100 7MA]PB9>Ta[Lck>e^Q8V;1
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Eclock_generator
+Z17 w1503999916
+Z18 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R4
+R5
+R6
+Z19 8C:/Users/Iago/Desktop/Processador/clockdiv.vhd
+Z20 FC:/Users/Iago/Desktop/Processador/clockdiv.vhd
+l0
+L5
+VmK[:cC1h@Bgf0aCkPzL?U1
+!s100 683L9MKWhXczOcJFV_aS62
+R9
+32
+Z21 !s110 1504200353
+!i10b 1
+Z22 !s108 1504200353.000000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Iago/Desktop/Processador/clockdiv.vhd|
+Z24 !s107 C:/Users/Iago/Desktop/Processador/clockdiv.vhd|
+!i113 1
+R14
+R15
+Artl
+R18
+R4
+R5
+DEx4 work 15 clock_generator 0 22 mK[:cC1h@Bgf0aCkPzL?U1
+l29
+L12
+V4Qn_`>HMdG1aBaz`UI;<f2
+!s100 ^6[egR7k5fPC@JbSj<eSY3
+R9
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R14
+R15
+Enbitadder
+Z25 w1503999920
+R2
+R3
+R4
+R5
+R6
+Z26 8C:/Users/Iago/Desktop/Processador/nbitadder.vhd
+Z27 FC:/Users/Iago/Desktop/Processador/nbitadder.vhd
+l0
+L5
+VBYf2VK:o43i5_YLP=ib4]1
+!s100 KJo3^1nAK5AASP92?TnTV1
+R9
+32
+Z28 !s110 1504200355
+!i10b 1
+Z29 !s108 1504200354.000000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Iago/Desktop/Processador/nbitadder.vhd|
+Z31 !s107 C:/Users/Iago/Desktop/Processador/nbitadder.vhd|
+!i113 1
+R14
+R15
+Abehaviour
+R2
+R3
+R4
+R5
+DEx4 work 9 nbitadder 0 22 BYf2VK:o43i5_YLP=ib4]1
+l17
+L13
+VBmDogmhYIG`FkB@7E?>Si3
+!s100 BEHW2zJ2G3;m4Gnc5<S=L2
+R9
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R14
+R15
+Enbitcompmag
+Z32 w1503484834
+R2
+R3
+R4
+R5
+R6
+Z33 8C:/Users/Iago/Desktop/Processador/nbitcompmag.vhd
+Z34 FC:/Users/Iago/Desktop/Processador/nbitcompmag.vhd
+l0
+L5
+VUF?0km7d_L=6l4A7el;l`3
+!s100 fXWz``kk`d=IMc>3AeIZJ3
+R9
+32
+Z35 !s110 1504200356
+!i10b 1
+Z36 !s108 1504200356.000000
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Iago/Desktop/Processador/nbitcompmag.vhd|
+Z38 !s107 C:/Users/Iago/Desktop/Processador/nbitcompmag.vhd|
+!i113 1
+R14
+R15
+Acircuit
+R2
+R3
+R4
+R5
+DEx4 work 11 nbitcompmag 0 22 UF?0km7d_L=6l4A7el;l`3
+l15
+L11
+ViOdiI<73Q3:0?FoW[Ke6a0
+!s100 NIe8;]SJ_47K5Y9Di7:^D0
+R9
+32
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 1
+R14
+R15
+Enbitcounter
+Z39 w1504132302
+R2
+R3
+R4
+R5
+R6
+Z40 8C:/Users/Iago/Desktop/Processador/nbitcounter.vhd
+Z41 FC:/Users/Iago/Desktop/Processador/nbitcounter.vhd
+l0
+L5
+Vg=M2CQ9M86gT[2gS0<<7e3
+!s100 n0CF=[QhUXf4fCWlYNeL^0
+R9
+32
+Z42 !s110 1504200358
+!i10b 1
+Z43 !s108 1504200358.000000
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Iago/Desktop/Processador/nbitcounter.vhd|
+Z45 !s107 C:/Users/Iago/Desktop/Processador/nbitcounter.vhd|
+!i113 1
+R14
+R15
+Abehv
+R2
+R3
+R4
+R5
+DEx4 work 11 nbitcounter 0 22 g=M2CQ9M86gT[2gS0<<7e3
+l15
+L13
+VJm4IOcZnBESSTZ?AdDjIo2
+!s100 8bZ=;JlCg1OW@kkY;`>Yz0
+R9
+32
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 1
+R14
+R15
+Enbitmodule
+Z46 w1504201575
+R1
+R2
+R3
+R4
+R5
+R6
+Z47 8C:/Users/Iago/Desktop/Processador/module.vhd
+Z48 FC:/Users/Iago/Desktop/Processador/module.vhd
+l0
+L6
+VJQC^[dm^;e<;1_zEK1iX[0
+!s100 Ub1[6PT99XFFZiB>hK7MS3
+R9
+32
+Z49 !s110 1504201634
+!i10b 1
+Z50 !s108 1504201634.000000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Iago/Desktop/Processador/module.vhd|
+Z52 !s107 C:/Users/Iago/Desktop/Processador/module.vhd|
+!i113 1
+R14
+R15
+Aarrange
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 nbitmodule 0 22 JQC^[dm^;e<;1_zEK1iX[0
+l32
+L13
+VD[:Jie6LkSTMzaRgDb9Xe2
+!s100 6_XkPhhYk0]EZCo3kb9Eh1
+R9
+32
+R49
+!i10b 1
+R50
+R51
+R52
+!i113 1
+R14
+R15
+Enbitmux
+R25
+R2
+R3
+R4
+R5
+R6
+Z53 8C:/Users/Iago/Desktop/Processador/nbitmux.vhd
+Z54 FC:/Users/Iago/Desktop/Processador/nbitmux.vhd
+l0
+L5
+VA2iDT4NM[[RGohOIC^Z8O3
+!s100 4>`;Tz:>FN<mKe:A=QY[R3
+R9
+32
+Z55 !s110 1504200360
+!i10b 1
+Z56 !s108 1504200359.000000
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Iago/Desktop/Processador/nbitmux.vhd|
+Z58 !s107 C:/Users/Iago/Desktop/Processador/nbitmux.vhd|
+!i113 1
+R14
+R15
+Acircuit
+R2
+R3
+R4
+R5
+DEx4 work 7 nbitmux 0 22 A2iDT4NM[[RGohOIC^Z8O3
+l14
+L12
+V<?PPkF65n6:jGEQZ@L`NN2
+!s100 gf:>GYc;OPnk;d:`9LIBn0
+R9
+32
+R55
+!i10b 1
+R56
+R57
+R58
+!i113 1
+R14
+R15
+Enbitmux4x1
+Z59 w1504098474
+R2
+R3
+R4
+R5
+R6
+Z60 8C:/Users/Iago/Desktop/Processador/4x1nbitmux.vhd
+Z61 FC:/Users/Iago/Desktop/Processador/4x1nbitmux.vhd
+l0
+L5
+Vo>XaUdNXkaZ@MFS3KeHjm3
+!s100 6MN8SAT2`38jK9MQLGQ4]3
+R9
+32
+Z62 !s110 1504200349
+!i10b 1
+Z63 !s108 1504200349.000000
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Iago/Desktop/Processador/4x1nbitmux.vhd|
+Z65 !s107 C:/Users/Iago/Desktop/Processador/4x1nbitmux.vhd|
+!i113 1
+R14
+R15
+Aarrangment
+R2
+R3
+R4
+R5
+DEx4 work 10 nbitmux4x1 0 22 o>XaUdNXkaZ@MFS3KeHjm3
+l22
+L12
+V^]:ed?LbEFangh3c>@7ab0
+!s100 Bf0YRFhbbK<I;hRo=HNNC2
+R9
+32
+R62
+!i10b 1
+R63
+R64
+R65
+!i113 1
+R14
+R15
+Enbitreg
+Z66 w1504132322
+R2
+R3
+R4
+R5
+R6
+Z67 8C:/Users/Iago/Desktop/Processador/nbitregister.vhd
+Z68 FC:/Users/Iago/Desktop/Processador/nbitregister.vhd
+l0
+L5
+VSPB@LKR4zB98M4hW_WITX0
+!s100 ^P<9dUdcc_>64J`H7TI:o1
+R9
+32
+Z69 !s110 1504200363
+!i10b 1
+Z70 !s108 1504200363.000000
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Iago/Desktop/Processador/nbitregister.vhd|
+Z72 !s107 C:/Users/Iago/Desktop/Processador/nbitregister.vhd|
+!i113 1
+R14
+R15
+Abehaviour
+R2
+R3
+R4
+R5
+DEx4 work 7 nbitreg 0 22 SPB@LKR4zB98M4hW_WITX0
+l13
+L12
+V;`AFAf?TgW0V_lFELHUga0
+!s100 zYbD?YQAT8@YMm:OI6]dJ2
+R9
+32
+R69
+!i10b 1
+R70
+R71
+R72
+!i113 1
+R14
+R15

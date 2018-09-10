@@ -1,0 +1,1287 @@
+Analysis & Synthesis report for Atividade06
+Tue Aug 22 01:03:10 2017
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Analysis & Synthesis RAM Summary
+  9. Analysis & Synthesis IP Cores Summary
+ 10. State Machine - |main_troco|maquinatroco:MQ|state
+ 11. State Machine - |main_troco|botaosincrono:K1S|estado
+ 12. State Machine - |main_troco|botaosincrono:K2S|estado
+ 13. Registers Removed During Synthesis
+ 14. General Register Statistics
+ 15. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 16. Source assignments for ValueROM:VROM|altsyncram:altsyncram_component|altsyncram_b181:auto_generated
+ 17. Source assignments for maquinatroco:MQ|CoinROM:rom|altsyncram:altsyncram_component|altsyncram_7s71:auto_generated
+ 18. Parameter Settings for User Entity Instance: nbitcounter:rom_address
+ 19. Parameter Settings for User Entity Instance: clock_generator:clock_20
+ 20. Parameter Settings for User Entity Instance: clock_generator:clock_40
+ 21. Parameter Settings for User Entity Instance: ValueROM:VROM|altsyncram:altsyncram_component
+ 22. Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitmux:tempmux
+ 23. Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitreg:tempreg
+ 24. Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitadder:temsum
+ 25. Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitcounter:romadrs
+ 26. Parameter Settings for User Entity Instance: maquinatroco:MQ|CoinROM:rom|altsyncram:altsyncram_component
+ 27. Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitcompmag:comptemp
+ 28. Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitcompmag:compadrs
+ 29. Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitcompmag:compzero
+ 30. Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitcounter:cont100
+ 31. Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitcounter:cont50
+ 32. Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitcounter:cont25
+ 33. Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitcounter:cont10
+ 34. Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitcounter:cont5
+ 35. Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitcounter:cont1
+ 36. Parameter Settings for User Entity Instance: nbit8x1mux:MX81
+ 37. Parameter Settings for User Entity Instance: nbit8x1mux:MX81|nbitmux:mx00
+ 38. Parameter Settings for User Entity Instance: nbit8x1mux:MX81|nbitmux:mx01
+ 39. Parameter Settings for User Entity Instance: nbit8x1mux:MX81|nbitmux:mx02
+ 40. Parameter Settings for User Entity Instance: nbit8x1mux:MX81|nbitmux:mx03
+ 41. Parameter Settings for User Entity Instance: nbit8x1mux:MX81|nbitmux:mx04
+ 42. Parameter Settings for User Entity Instance: nbit8x1mux:MX81|nbitmux:mx05
+ 43. Parameter Settings for User Entity Instance: nbit8x1mux:MX81|nbitmux:mx06
+ 44. altsyncram Parameter Settings by Entity Instance
+ 45. Port Connectivity Checks: "BinDisplay:DSP1"
+ 46. Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box15"
+ 47. Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box14"
+ 48. Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box13"
+ 49. Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box12"
+ 50. Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box11"
+ 51. Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box10"
+ 52. Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box09"
+ 53. Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box08"
+ 54. Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box07"
+ 55. Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box06"
+ 56. Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box05"
+ 57. Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box04"
+ 58. Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box03"
+ 59. Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box02"
+ 60. Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box01"
+ 61. Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box00"
+ 62. Port Connectivity Checks: "BinDisplay:DSP"
+ 63. Port Connectivity Checks: "maquinatroco:MQ|nbitcounter:cont1"
+ 64. Port Connectivity Checks: "maquinatroco:MQ|nbitcounter:cont5"
+ 65. Port Connectivity Checks: "maquinatroco:MQ|nbitcounter:cont10"
+ 66. Port Connectivity Checks: "maquinatroco:MQ|nbitcounter:cont25"
+ 67. Port Connectivity Checks: "maquinatroco:MQ|nbitcounter:cont50"
+ 68. Port Connectivity Checks: "maquinatroco:MQ|nbitcounter:cont100"
+ 69. Port Connectivity Checks: "maquinatroco:MQ|nbitcompmag:compzero"
+ 70. Port Connectivity Checks: "maquinatroco:MQ|nbitcompmag:compadrs"
+ 71. Port Connectivity Checks: "maquinatroco:MQ|nbitcompmag:comptemp"
+ 72. Port Connectivity Checks: "maquinatroco:MQ|nbitcounter:romadrs"
+ 73. Port Connectivity Checks: "maquinatroco:MQ|nbitadder:temsum"
+ 74. Port Connectivity Checks: "nbitcounter:rom_address"
+ 75. Elapsed Time Per Partition
+ 76. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Tue Aug 22 01:03:10 2017           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; Atividade06                                     ;
+; Top-level Entity Name              ; main_troco                                      ;
+; Family                             ; Cyclone II                                      ;
+; Total logic elements               ; 583                                             ;
+;     Total combinational functions  ; 583                                             ;
+;     Dedicated logic registers      ; 175                                             ;
+; Total registers                    ; 175                                             ;
+; Total pins                         ; 66                                              ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 384                                             ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP2C35F672C6       ;                    ;
+; Top-level entity name                                                      ; main_troco         ; Atividade06        ;
+; Family name                                                                ; Cyclone II         ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; Off                ; Off                ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                    ;
++----------------------------------+-----------------+----------------------------------+-------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                        ; File Name with Absolute Path                                            ; Library ;
++----------------------------------+-----------------+----------------------------------+-------------------------------------------------------------------------+---------+
+; nbitregister.vhd                 ; yes             ; User VHDL File                   ; d:/햞ea de Trabalho/Atividade 06/nbitregister.vhd                       ;         ;
+; nbitmux.vhd                      ; yes             ; User VHDL File                   ; d:/햞ea de Trabalho/Atividade 06/nbitmux.vhd                            ;         ;
+; nbitcounter.vhd                  ; yes             ; User VHDL File                   ; d:/햞ea de Trabalho/Atividade 06/nbitcounter.vhd                        ;         ;
+; nbitcompmag.vhd                  ; yes             ; User VHDL File                   ; d:/햞ea de Trabalho/Atividade 06/nbitcompmag.vhd                        ;         ;
+; nbitadder.vhd                    ; yes             ; User VHDL File                   ; d:/햞ea de Trabalho/Atividade 06/nbitadder.vhd                          ;         ;
+; maquinatroco.vhd                 ; yes             ; User VHDL File                   ; d:/햞ea de Trabalho/Atividade 06/maquinatroco.vhd                       ;         ;
+; clockdiv.vhd                     ; yes             ; User VHDL File                   ; d:/햞ea de Trabalho/Atividade 06/clockdiv.vhd                           ;         ;
+; botaosincrono.vhd                ; yes             ; User VHDL File                   ; d:/햞ea de Trabalho/Atividade 06/botaosincrono.vhd                      ;         ;
+; BinTo7Segment.vhd                ; yes             ; User VHDL File                   ; d:/햞ea de Trabalho/Atividade 06/BinTo7Segment.vhd                      ;         ;
+; BinDisplay.vhd                   ; yes             ; User VHDL File                   ; d:/햞ea de Trabalho/Atividade 06/BinDisplay.vhd                         ;         ;
+; binbcdbox.vhd                    ; yes             ; User VHDL File                   ; d:/햞ea de Trabalho/Atividade 06/binbcdbox.vhd                          ;         ;
+; BinBCD.vhd                       ; yes             ; User VHDL File                   ; d:/햞ea de Trabalho/Atividade 06/BinBCD.vhd                             ;         ;
+; ValueROM.mif                     ; yes             ; User Memory Initialization File  ; d:/햞ea de Trabalho/Atividade 06/ValueROM.mif                           ;         ;
+; ValueROM.vhd                     ; yes             ; User Wizard-Generated File       ; d:/햞ea de Trabalho/Atividade 06/ValueROM.vhd                           ;         ;
+; CoinROM.mif                      ; yes             ; User Memory Initialization File  ; d:/햞ea de Trabalho/Atividade 06/CoinROM.mif                            ;         ;
+; CoinROM.vhd                      ; yes             ; User Wizard-Generated File       ; d:/햞ea de Trabalho/Atividade 06/CoinROM.vhd                            ;         ;
+; 8x1mux.vhd                       ; yes             ; User VHDL File                   ; d:/햞ea de Trabalho/Atividade 06/8x1mux.vhd                             ;         ;
+; main_troco.vhd                   ; yes             ; User VHDL File                   ; d:/햞ea de Trabalho/Atividade 06/main_troco.vhd                         ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mux.inc           ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_decode.inc        ;         ;
+; aglobal130.inc                   ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal130.inc        ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_rdenreg.inc         ;         ;
+; altrom.inc                       ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altrom.inc            ;         ;
+; altram.inc                       ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altram.inc            ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altdpram.inc          ;         ;
+; db/altsyncram_b181.tdf           ; yes             ; Auto-Generated Megafunction      ; d:/햞ea de Trabalho/Atividade 06/db/altsyncram_b181.tdf                 ;         ;
+; db/altsyncram_7s71.tdf           ; yes             ; Auto-Generated Megafunction      ; d:/햞ea de Trabalho/Atividade 06/db/altsyncram_7s71.tdf                 ;         ;
++----------------------------------+-----------------+----------------------------------+-------------------------------------------------------------------------+---------+
+
+
++-------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                         ;
++---------------------------------------------+---------------------------------------+
+; Resource                                    ; Usage                                 ;
++---------------------------------------------+---------------------------------------+
+; Estimated Total logic elements              ; 583                                   ;
+;                                             ;                                       ;
+; Total combinational functions               ; 583                                   ;
+; Logic element usage by number of LUT inputs ;                                       ;
+;     -- 4 input functions                    ; 317                                   ;
+;     -- 3 input functions                    ; 106                                   ;
+;     -- <=2 input functions                  ; 160                                   ;
+;                                             ;                                       ;
+; Logic elements by mode                      ;                                       ;
+;     -- normal mode                          ; 460                                   ;
+;     -- arithmetic mode                      ; 123                                   ;
+;                                             ;                                       ;
+; Total registers                             ; 175                                   ;
+;     -- Dedicated logic registers            ; 175                                   ;
+;     -- I/O registers                        ; 0                                     ;
+;                                             ;                                       ;
+; I/O pins                                    ; 66                                    ;
+; Total memory bits                           ; 384                                   ;
+; Embedded Multiplier 9-bit elements          ; 0                                     ;
+; Maximum fan-out node                        ; clock_generator:clock_20|clock_signal ;
+; Maximum fan-out                             ; 134                                   ;
+; Total fan-out                               ; 2678                                  ;
+; Average fan-out                             ; 3.13                                  ;
++---------------------------------------------+---------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                              ;
++----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node                   ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                    ; Library Name ;
++----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------+--------------+
+; |main_troco                                  ; 583 (0)           ; 175 (0)      ; 384         ; 0            ; 0       ; 0         ; 66   ; 0            ; |main_troco                                                                                            ; work         ;
+;    |BinDisplay:DSP1|                         ; 8 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP1                                                                            ; work         ;
+;       |BinBCD:BBCD|                          ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP1|BinBCD:BBCD                                                                ; work         ;
+;          |binbcdbox:Box11|                   ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP1|BinBCD:BBCD|binbcdbox:Box11                                                ; work         ;
+;       |BinTo7Segment:Hex00|                  ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP1|BinTo7Segment:Hex00                                                        ; work         ;
+;    |BinDisplay:DSP|                          ; 216 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP                                                                             ; work         ;
+;       |BinBCD:BBCD|                          ; 188 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinBCD:BBCD                                                                 ; work         ;
+;          |binbcdbox:Box00|                   ; 14 (14)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box00                                                 ; work         ;
+;          |binbcdbox:Box01|                   ; 13 (13)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box01                                                 ; work         ;
+;          |binbcdbox:Box02|                   ; 14 (14)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box02                                                 ; work         ;
+;          |binbcdbox:Box03|                   ; 13 (13)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box03                                                 ; work         ;
+;          |binbcdbox:Box04|                   ; 13 (13)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box04                                                 ; work         ;
+;          |binbcdbox:Box05|                   ; 13 (13)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box05                                                 ; work         ;
+;          |binbcdbox:Box06|                   ; 14 (14)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box06                                                 ; work         ;
+;          |binbcdbox:Box07|                   ; 13 (13)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box07                                                 ; work         ;
+;          |binbcdbox:Box08|                   ; 13 (13)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box08                                                 ; work         ;
+;          |binbcdbox:Box09|                   ; 13 (13)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box09                                                 ; work         ;
+;          |binbcdbox:Box10|                   ; 13 (13)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box10                                                 ; work         ;
+;          |binbcdbox:Box11|                   ; 13 (13)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box11                                                 ; work         ;
+;          |binbcdbox:Box12|                   ; 9 (9)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box12                                                 ; work         ;
+;          |binbcdbox:Box13|                   ; 13 (13)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box13                                                 ; work         ;
+;          |binbcdbox:Box14|                   ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box14                                                 ; work         ;
+;          |binbcdbox:Box15|                   ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box15                                                 ; work         ;
+;       |BinTo7Segment:Hex00|                  ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinTo7Segment:Hex00                                                         ; work         ;
+;       |BinTo7Segment:Hex01|                  ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinTo7Segment:Hex01                                                         ; work         ;
+;       |BinTo7Segment:Hex02|                  ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinTo7Segment:Hex02                                                         ; work         ;
+;       |BinTo7Segment:Hex03|                  ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|BinDisplay:DSP|BinTo7Segment:Hex03                                                         ; work         ;
+;    |ValueROM:VROM|                           ; 0 (0)             ; 0 (0)        ; 256         ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|ValueROM:VROM                                                                              ; work         ;
+;       |altsyncram:altsyncram_component|      ; 0 (0)             ; 0 (0)        ; 256         ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|ValueROM:VROM|altsyncram:altsyncram_component                                              ; work         ;
+;          |altsyncram_b181:auto_generated|    ; 0 (0)             ; 0 (0)        ; 256         ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|ValueROM:VROM|altsyncram:altsyncram_component|altsyncram_b181:auto_generated               ; work         ;
+;    |botaosincrono:K1S|                       ; 2 (2)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|botaosincrono:K1S                                                                          ; work         ;
+;    |botaosincrono:K2S|                       ; 2 (2)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|botaosincrono:K2S                                                                          ; work         ;
+;    |clock_generator:clock_20|                ; 38 (38)           ; 22 (22)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|clock_generator:clock_20                                                                   ; work         ;
+;    |clock_generator:clock_40|                ; 37 (37)           ; 21 (21)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|clock_generator:clock_40                                                                   ; work         ;
+;    |maquinatroco:MQ|                         ; 195 (27)          ; 124 (9)      ; 128         ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|maquinatroco:MQ                                                                            ; work         ;
+;       |CoinROM:rom|                          ; 0 (0)             ; 0 (0)        ; 128         ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|maquinatroco:MQ|CoinROM:rom                                                                ; work         ;
+;          |altsyncram:altsyncram_component|   ; 0 (0)             ; 0 (0)        ; 128         ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|maquinatroco:MQ|CoinROM:rom|altsyncram:altsyncram_component                                ; work         ;
+;             |altsyncram_7s71:auto_generated| ; 0 (0)             ; 0 (0)        ; 128         ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|maquinatroco:MQ|CoinROM:rom|altsyncram:altsyncram_component|altsyncram_7s71:auto_generated ; work         ;
+;       |nbitadder:temsum|                     ; 24 (24)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|maquinatroco:MQ|nbitadder:temsum                                                           ; work         ;
+;       |nbitcompmag:comptemp|                 ; 23 (23)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|maquinatroco:MQ|nbitcompmag:comptemp                                                       ; work         ;
+;       |nbitcompmag:compzero|                 ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|maquinatroco:MQ|nbitcompmag:compzero                                                       ; work         ;
+;       |nbitcounter:cont100|                  ; 16 (16)           ; 16 (16)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|maquinatroco:MQ|nbitcounter:cont100                                                        ; work         ;
+;       |nbitcounter:cont10|                   ; 16 (16)           ; 16 (16)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|maquinatroco:MQ|nbitcounter:cont10                                                         ; work         ;
+;       |nbitcounter:cont1|                    ; 16 (16)           ; 16 (16)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|maquinatroco:MQ|nbitcounter:cont1                                                          ; work         ;
+;       |nbitcounter:cont25|                   ; 16 (16)           ; 16 (16)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|maquinatroco:MQ|nbitcounter:cont25                                                         ; work         ;
+;       |nbitcounter:cont50|                   ; 16 (16)           ; 16 (16)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|maquinatroco:MQ|nbitcounter:cont50                                                         ; work         ;
+;       |nbitcounter:cont5|                    ; 16 (16)           ; 16 (16)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|maquinatroco:MQ|nbitcounter:cont5                                                          ; work         ;
+;       |nbitcounter:romadrs|                  ; 3 (3)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|maquinatroco:MQ|nbitcounter:romadrs                                                        ; work         ;
+;       |nbitmux:tempmux|                      ; 17 (17)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|maquinatroco:MQ|nbitmux:tempmux                                                            ; work         ;
+;       |nbitreg:tempreg|                      ; 0 (0)             ; 16 (16)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|maquinatroco:MQ|nbitreg:tempreg                                                            ; work         ;
+;    |nbit8x1mux:MX81|                         ; 80 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|nbit8x1mux:MX81                                                                            ; work         ;
+;       |nbitmux:mx06|                         ; 80 (80)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|nbit8x1mux:MX81|nbitmux:mx06                                                               ; work         ;
+;    |nbitcounter:rom_address|                 ; 5 (5)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main_troco|nbitcounter:rom_address                                                                    ; work         ;
++----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                                      ;
++-------------------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+------+--------------+
+; Name                                                                                                  ; Type ; Mode ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size ; MIF          ;
++-------------------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+------+--------------+
+; ValueROM:VROM|altsyncram:altsyncram_component|altsyncram_b181:auto_generated|ALTSYNCRAM               ; AUTO ; ROM  ; 16           ; 16           ; --           ; --           ; 256  ; ValueROM.mif ;
+; maquinatroco:MQ|CoinROM:rom|altsyncram:altsyncram_component|altsyncram_7s71:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; 8            ; 16           ; --           ; --           ; 128  ; CoinROM.mif  ;
++-------------------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+------+--------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                   ;
++--------+--------------+---------+--------------+--------------+-----------------------------------------+-----------------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                         ; IP Include File                               ;
++--------+--------------+---------+--------------+--------------+-----------------------------------------+-----------------------------------------------+
+; Altera ; ROM: 1-PORT  ; 13.0    ; N/A          ; N/A          ; |main_troco|maquinatroco:MQ|CoinROM:rom ; d:/햞ea de Trabalho/Atividade 06/CoinROM.vhd  ;
+; Altera ; ROM: 1-PORT  ; 13.0    ; N/A          ; N/A          ; |main_troco|ValueROM:VROM               ; d:/햞ea de Trabalho/Atividade 06/ValueROM.vhd ;
++--------+--------------+---------+--------------+--------------+-----------------------------------------+-----------------------------------------------+
+
+
+Encoding Type:  One-Hot
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |main_troco|maquinatroco:MQ|state                                                                                                                     ;
++---------------------+--------------+----------------+------------+--------------------+-------------+---------------+---------------------+--------------+------------+
+; Name                ; state.libere ; state.carregue ; state.erro ; state.atualize_rom ; state.opere ; state.compare ; state.copie_to_temp ; state.espere ; state.zero ;
++---------------------+--------------+----------------+------------+--------------------+-------------+---------------+---------------------+--------------+------------+
+; state.zero          ; 0            ; 0              ; 0          ; 0                  ; 0           ; 0             ; 0                   ; 0            ; 0          ;
+; state.espere        ; 0            ; 0              ; 0          ; 0                  ; 0           ; 0             ; 0                   ; 1            ; 1          ;
+; state.copie_to_temp ; 0            ; 0              ; 0          ; 0                  ; 0           ; 0             ; 1                   ; 0            ; 1          ;
+; state.compare       ; 0            ; 0              ; 0          ; 0                  ; 0           ; 1             ; 0                   ; 0            ; 1          ;
+; state.opere         ; 0            ; 0              ; 0          ; 0                  ; 1           ; 0             ; 0                   ; 0            ; 1          ;
+; state.atualize_rom  ; 0            ; 0              ; 0          ; 1                  ; 0           ; 0             ; 0                   ; 0            ; 1          ;
+; state.erro          ; 0            ; 0              ; 1          ; 0                  ; 0           ; 0             ; 0                   ; 0            ; 1          ;
+; state.carregue      ; 0            ; 1              ; 0          ; 0                  ; 0           ; 0             ; 0                   ; 0            ; 1          ;
+; state.libere        ; 1            ; 0              ; 0          ; 0                  ; 0           ; 0             ; 0                   ; 0            ; 1          ;
++---------------------+--------------+----------------+------------+--------------------+-------------+---------------+---------------------+--------------+------------+
+
+
+Encoding Type:  One-Hot
++---------------------------------------------------------------+
+; State Machine - |main_troco|botaosincrono:K1S|estado          ;
++---------------+---------------+---------------+---------------+
+; Name          ; estado.caso_c ; estado.caso_b ; estado.caso_a ;
++---------------+---------------+---------------+---------------+
+; estado.caso_a ; 0             ; 0             ; 0             ;
+; estado.caso_b ; 0             ; 1             ; 1             ;
+; estado.caso_c ; 1             ; 0             ; 1             ;
++---------------+---------------+---------------+---------------+
+
+
+Encoding Type:  One-Hot
++---------------------------------------------------------------+
+; State Machine - |main_troco|botaosincrono:K2S|estado          ;
++---------------+---------------+---------------+---------------+
+; Name          ; estado.caso_c ; estado.caso_b ; estado.caso_a ;
++---------------+---------------+---------------+---------------+
+; estado.caso_a ; 0             ; 0             ; 0             ;
+; estado.caso_b ; 0             ; 1             ; 1             ;
+; estado.caso_c ; 1             ; 0             ; 1             ;
++---------------+---------------+---------------+---------------+
+
+
++------------------------------------------------------------+
+; Registers Removed During Synthesis                         ;
++---------------------------------------+--------------------+
+; Register name                         ; Reason for Removal ;
++---------------------------------------+--------------------+
+; botaosincrono:K1S|estado.caso_c       ; Lost fanout        ;
+; botaosincrono:K2S|estado.caso_c       ; Lost fanout        ;
+; Total Number of Removed Registers = 2 ;                    ;
++---------------------------------------+--------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 175   ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 132   ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 106   ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                         ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------+
+; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |main_troco|nbit8x1mux:MX81|nbitmux:mx06|S_out[11] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Source assignments for ValueROM:VROM|altsyncram:altsyncram_component|altsyncram_b181:auto_generated ;
++---------------------------------+--------------------+------+---------------------------------------+
+; Assignment                      ; Value              ; From ; To                                    ;
++---------------------------------+--------------------+------+---------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                     ;
++---------------------------------+--------------------+------+---------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Source assignments for maquinatroco:MQ|CoinROM:rom|altsyncram:altsyncram_component|altsyncram_7s71:auto_generated ;
++---------------------------------+--------------------+------+-----------------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                                  ;
++---------------------------------+--------------------+------+-----------------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                   ;
++---------------------------------+--------------------+------+-----------------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: nbitcounter:rom_address ;
++----------------+-------+---------------------------------------------+
+; Parameter Name ; Value ; Type                                        ;
++----------------+-------+---------------------------------------------+
+; n              ; 4     ; Signed Integer                              ;
++----------------+-------+---------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: clock_generator:clock_20 ;
++-----------------+----------+------------------------------------------+
+; Parameter Name  ; Value    ; Type                                     ;
++-----------------+----------+------------------------------------------+
+; clock_in_speed  ; 27000000 ; Signed Integer                           ;
+; clock_out_speed ; 20       ; Signed Integer                           ;
++-----------------+----------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: clock_generator:clock_40 ;
++-----------------+----------+------------------------------------------+
+; Parameter Name  ; Value    ; Type                                     ;
++-----------------+----------+------------------------------------------+
+; clock_in_speed  ; 27000000 ; Signed Integer                           ;
+; clock_out_speed ; 40       ; Signed Integer                           ;
++-----------------+----------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ValueROM:VROM|altsyncram:altsyncram_component ;
++------------------------------------+----------------------+--------------------------------+
+; Parameter Name                     ; Value                ; Type                           ;
++------------------------------------+----------------------+--------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                        ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                     ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                   ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                   ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                 ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                        ;
+; OPERATION_MODE                     ; ROM                  ; Untyped                        ;
+; WIDTH_A                            ; 16                   ; Signed Integer                 ;
+; WIDTHAD_A                          ; 4                    ; Signed Integer                 ;
+; NUMWORDS_A                         ; 16                   ; Signed Integer                 ;
+; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped                        ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                        ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                        ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                        ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                        ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                        ;
+; WIDTH_B                            ; 1                    ; Untyped                        ;
+; WIDTHAD_B                          ; 1                    ; Untyped                        ;
+; NUMWORDS_B                         ; 1                    ; Untyped                        ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                        ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                        ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                        ;
+; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                        ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                        ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                        ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                        ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                        ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                        ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                        ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                        ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                        ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer                 ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                        ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                        ;
+; BYTE_SIZE                          ; 8                    ; Untyped                        ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                        ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                        ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                        ;
+; INIT_FILE                          ; ValueROM.mif         ; Untyped                        ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                        ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                        ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                        ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                        ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                        ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                        ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                        ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                        ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                        ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                        ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                        ;
+; DEVICE_FAMILY                      ; Cyclone II           ; Untyped                        ;
+; CBXI_PARAMETER                     ; altsyncram_b181      ; Untyped                        ;
++------------------------------------+----------------------+--------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitmux:tempmux ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; n              ; 16    ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitreg:tempreg ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; n              ; 16    ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitadder:temsum ;
++----------------+-------+------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                 ;
++----------------+-------+------------------------------------------------------+
+; n              ; 16    ; Signed Integer                                       ;
++----------------+-------+------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitcounter:romadrs ;
++----------------+-------+---------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                    ;
++----------------+-------+---------------------------------------------------------+
+; n              ; 3     ; Signed Integer                                          ;
++----------------+-------+---------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: maquinatroco:MQ|CoinROM:rom|altsyncram:altsyncram_component ;
++------------------------------------+----------------------+----------------------------------------------+
+; Parameter Name                     ; Value                ; Type                                         ;
++------------------------------------+----------------------+----------------------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                                      ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                                   ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                                 ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                                 ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                               ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                                      ;
+; OPERATION_MODE                     ; ROM                  ; Untyped                                      ;
+; WIDTH_A                            ; 16                   ; Signed Integer                               ;
+; WIDTHAD_A                          ; 3                    ; Signed Integer                               ;
+; NUMWORDS_A                         ; 8                    ; Signed Integer                               ;
+; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped                                      ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                                      ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                                      ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                                      ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                                      ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                                      ;
+; WIDTH_B                            ; 1                    ; Untyped                                      ;
+; WIDTHAD_B                          ; 1                    ; Untyped                                      ;
+; NUMWORDS_B                         ; 1                    ; Untyped                                      ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                                      ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                                      ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                                      ;
+; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                                      ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                                      ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                                      ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                                      ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                                      ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                                      ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                                      ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                                      ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                                      ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer                               ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                                      ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                                      ;
+; BYTE_SIZE                          ; 8                    ; Untyped                                      ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                                      ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                                      ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                                      ;
+; INIT_FILE                          ; CoinROM.mif          ; Untyped                                      ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                                      ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                                      ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                                      ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                                      ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                                      ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                                      ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                                      ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                                      ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                                      ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                                      ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                                      ;
+; DEVICE_FAMILY                      ; Cyclone II           ; Untyped                                      ;
+; CBXI_PARAMETER                     ; altsyncram_7s71      ; Untyped                                      ;
++------------------------------------+----------------------+----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitcompmag:comptemp ;
++----------------+-------+----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                     ;
++----------------+-------+----------------------------------------------------------+
+; n              ; 16    ; Signed Integer                                           ;
++----------------+-------+----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitcompmag:compadrs ;
++----------------+-------+----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                     ;
++----------------+-------+----------------------------------------------------------+
+; n              ; 3     ; Signed Integer                                           ;
++----------------+-------+----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitcompmag:compzero ;
++----------------+-------+----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                     ;
++----------------+-------+----------------------------------------------------------+
+; n              ; 16    ; Signed Integer                                           ;
++----------------+-------+----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitcounter:cont100 ;
++----------------+-------+---------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                    ;
++----------------+-------+---------------------------------------------------------+
+; n              ; 16    ; Signed Integer                                          ;
++----------------+-------+---------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitcounter:cont50 ;
++----------------+-------+--------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                   ;
++----------------+-------+--------------------------------------------------------+
+; n              ; 16    ; Signed Integer                                         ;
++----------------+-------+--------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitcounter:cont25 ;
++----------------+-------+--------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                   ;
++----------------+-------+--------------------------------------------------------+
+; n              ; 16    ; Signed Integer                                         ;
++----------------+-------+--------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitcounter:cont10 ;
++----------------+-------+--------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                   ;
++----------------+-------+--------------------------------------------------------+
+; n              ; 16    ; Signed Integer                                         ;
++----------------+-------+--------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitcounter:cont5 ;
++----------------+-------+-------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                  ;
++----------------+-------+-------------------------------------------------------+
+; n              ; 16    ; Signed Integer                                        ;
++----------------+-------+-------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: maquinatroco:MQ|nbitcounter:cont1 ;
++----------------+-------+-------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                  ;
++----------------+-------+-------------------------------------------------------+
+; n              ; 16    ; Signed Integer                                        ;
++----------------+-------+-------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: nbit8x1mux:MX81 ;
++----------------+-------+-------------------------------------+
+; Parameter Name ; Value ; Type                                ;
++----------------+-------+-------------------------------------+
+; n              ; 16    ; Signed Integer                      ;
++----------------+-------+-------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: nbit8x1mux:MX81|nbitmux:mx00 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; n              ; 16    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: nbit8x1mux:MX81|nbitmux:mx01 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; n              ; 16    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: nbit8x1mux:MX81|nbitmux:mx02 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; n              ; 16    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: nbit8x1mux:MX81|nbitmux:mx03 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; n              ; 16    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: nbit8x1mux:MX81|nbitmux:mx04 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; n              ; 16    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: nbit8x1mux:MX81|nbitmux:mx05 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; n              ; 16    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: nbit8x1mux:MX81|nbitmux:mx06 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; n              ; 16    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------+
+; altsyncram Parameter Settings by Entity Instance                                                        ;
++-------------------------------------------+-------------------------------------------------------------+
+; Name                                      ; Value                                                       ;
++-------------------------------------------+-------------------------------------------------------------+
+; Number of entity instances                ; 2                                                           ;
+; Entity Instance                           ; ValueROM:VROM|altsyncram:altsyncram_component               ;
+;     -- OPERATION_MODE                     ; ROM                                                         ;
+;     -- WIDTH_A                            ; 16                                                          ;
+;     -- NUMWORDS_A                         ; 16                                                          ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                                ;
+;     -- WIDTH_B                            ; 1                                                           ;
+;     -- NUMWORDS_B                         ; 1                                                           ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                                      ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                                ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                                        ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                   ;
+; Entity Instance                           ; maquinatroco:MQ|CoinROM:rom|altsyncram:altsyncram_component ;
+;     -- OPERATION_MODE                     ; ROM                                                         ;
+;     -- WIDTH_A                            ; 16                                                          ;
+;     -- NUMWORDS_A                         ; 8                                                           ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                                ;
+;     -- WIDTH_B                            ; 1                                                           ;
+;     -- NUMWORDS_B                         ; 1                                                           ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                                      ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                                ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                                        ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                   ;
++-------------------------------------------+-------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "BinDisplay:DSP1"                                                                          ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                             ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; bin[15..4] ; Input  ; Info     ; Stuck at GND                                                                        ;
+; hex72      ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; hex73      ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; hex74      ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box15"                                               ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                             ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; binb_in[4] ; Input  ; Info     ; Stuck at GND                                                                        ;
+; y[7..4]    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box14"                                               ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                             ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; binb_in[4] ; Input  ; Info     ; Stuck at GND                                                                        ;
+; y[7..4]    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box13"                                            ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; y[7..5] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box12"                                            ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; y[7..6] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box11"                                            ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; y[7..5] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box10"                                            ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; y[7..5] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box09"                                            ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; y[7..5] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box08"                                            ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; y[7..5] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box07"                                            ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; y[7..5] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box06"                                            ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; y[7..6] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box05"                                            ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; y[7..5] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box04"                                            ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; y[7..5] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box03"                                            ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; y[7..5] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box02"                                            ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; y[7..6] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box01"                                            ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; y[7..5] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box00"                                            ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; y[7..6] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "BinDisplay:DSP"                                                                      ;
++-------+--------+----------+-------------------------------------------------------------------------------------+
+; Port  ; Type   ; Severity ; Details                                                                             ;
++-------+--------+----------+-------------------------------------------------------------------------------------+
+; hex74 ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------+
+; Port Connectivity Checks: "maquinatroco:MQ|nbitcounter:cont1" ;
++--------+-------+----------+-----------------------------------+
+; Port   ; Type  ; Severity ; Details                           ;
++--------+-------+----------+-----------------------------------+
+; updown ; Input ; Info     ; Stuck at GND                      ;
++--------+-------+----------+-----------------------------------+
+
+
++---------------------------------------------------------------+
+; Port Connectivity Checks: "maquinatroco:MQ|nbitcounter:cont5" ;
++--------+-------+----------+-----------------------------------+
+; Port   ; Type  ; Severity ; Details                           ;
++--------+-------+----------+-----------------------------------+
+; updown ; Input ; Info     ; Stuck at GND                      ;
++--------+-------+----------+-----------------------------------+
+
+
++----------------------------------------------------------------+
+; Port Connectivity Checks: "maquinatroco:MQ|nbitcounter:cont10" ;
++--------+-------+----------+------------------------------------+
+; Port   ; Type  ; Severity ; Details                            ;
++--------+-------+----------+------------------------------------+
+; updown ; Input ; Info     ; Stuck at GND                       ;
++--------+-------+----------+------------------------------------+
+
+
++----------------------------------------------------------------+
+; Port Connectivity Checks: "maquinatroco:MQ|nbitcounter:cont25" ;
++--------+-------+----------+------------------------------------+
+; Port   ; Type  ; Severity ; Details                            ;
++--------+-------+----------+------------------------------------+
+; updown ; Input ; Info     ; Stuck at GND                       ;
++--------+-------+----------+------------------------------------+
+
+
++----------------------------------------------------------------+
+; Port Connectivity Checks: "maquinatroco:MQ|nbitcounter:cont50" ;
++--------+-------+----------+------------------------------------+
+; Port   ; Type  ; Severity ; Details                            ;
++--------+-------+----------+------------------------------------+
+; updown ; Input ; Info     ; Stuck at GND                       ;
++--------+-------+----------+------------------------------------+
+
+
++-----------------------------------------------------------------+
+; Port Connectivity Checks: "maquinatroco:MQ|nbitcounter:cont100" ;
++--------+-------+----------+-------------------------------------+
+; Port   ; Type  ; Severity ; Details                             ;
++--------+-------+----------+-------------------------------------+
+; updown ; Input ; Info     ; Stuck at GND                        ;
++--------+-------+----------+-------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "maquinatroco:MQ|nbitcompmag:compzero"                                                 ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; b_data ; Input  ; Info     ; Stuck at GND                                                                        ;
+; out_gt ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_lt ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "maquinatroco:MQ|nbitcompmag:compadrs"                                                       ;
++--------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port         ; Type   ; Severity ; Details                                                                             ;
++--------------+--------+----------+-------------------------------------------------------------------------------------+
+; b_data[2..1] ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; b_data[0]    ; Input  ; Info     ; Stuck at GND                                                                        ;
+; out_gt       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_eq       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "maquinatroco:MQ|nbitcompmag:comptemp"                                                 ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; out_gt ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_eq ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------+
+; Port Connectivity Checks: "maquinatroco:MQ|nbitcounter:romadrs" ;
++--------+-------+----------+-------------------------------------+
+; Port   ; Type  ; Severity ; Details                             ;
++--------+-------+----------+-------------------------------------+
+; updown ; Input ; Info     ; Stuck at GND                        ;
++--------+-------+----------+-------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "maquinatroco:MQ|nbitadder:temsum"                                                        ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                             ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; carry_in  ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; carry_out ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "nbitcounter:rom_address" ;
++--------+-------+----------+-------------------------+
+; Port   ; Type  ; Severity ; Details                 ;
++--------+-------+----------+-------------------------+
+; updown ; Input ; Info     ; Stuck at GND            ;
++--------+-------+----------+-------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:03     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Tue Aug 22 01:03:04 2017
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Atividade06 -c Atividade06
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 2 design units, including 1 entities, in source file nbitregister.vhd
+    Info (12022): Found design unit 1: nbitreg-behaviour
+    Info (12023): Found entity 1: nbitreg
+Info (12021): Found 2 design units, including 1 entities, in source file nbitmux.vhd
+    Info (12022): Found design unit 1: nbitmux-circuit
+    Info (12023): Found entity 1: nbitmux
+Info (12021): Found 2 design units, including 1 entities, in source file nbitcounter.vhd
+    Info (12022): Found design unit 1: nbitcounter-behv
+    Info (12023): Found entity 1: nbitcounter
+Info (12021): Found 2 design units, including 1 entities, in source file nbitcompmag.vhd
+    Info (12022): Found design unit 1: nbitcompmag-circuit
+    Info (12023): Found entity 1: nbitcompmag
+Info (12021): Found 2 design units, including 1 entities, in source file nbitadder.vhd
+    Info (12022): Found design unit 1: nbitadder-behaviour
+    Info (12023): Found entity 1: nbitadder
+Info (12021): Found 2 design units, including 1 entities, in source file maquinatroco.vhd
+    Info (12022): Found design unit 1: maquinatroco-arrangment
+    Info (12023): Found entity 1: maquinatroco
+Info (12021): Found 2 design units, including 1 entities, in source file clockdiv.vhd
+    Info (12022): Found design unit 1: clock_generator-rtl
+    Info (12023): Found entity 1: clock_generator
+Info (12021): Found 2 design units, including 1 entities, in source file botaosincrono.vhd
+    Info (12022): Found design unit 1: botaosincrono-mde
+    Info (12023): Found entity 1: botaosincrono
+Info (12021): Found 2 design units, including 1 entities, in source file binto7segment.vhd
+    Info (12022): Found design unit 1: BinTo7Segment-ckt
+    Info (12023): Found entity 1: BinTo7Segment
+Info (12021): Found 2 design units, including 1 entities, in source file bindisplay.vhd
+    Info (12022): Found design unit 1: BinDisplay-arrange
+    Info (12023): Found entity 1: BinDisplay
+Info (12021): Found 2 design units, including 1 entities, in source file binbcdbox.vhd
+    Info (12022): Found design unit 1: binbcdbox-ckt
+    Info (12023): Found entity 1: binbcdbox
+Info (12021): Found 2 design units, including 1 entities, in source file binbcd.vhd
+    Info (12022): Found design unit 1: BinBCD-arrange
+    Info (12023): Found entity 1: BinBCD
+Info (12021): Found 2 design units, including 1 entities, in source file valuerom.vhd
+    Info (12022): Found design unit 1: valuerom-SYN
+    Info (12023): Found entity 1: ValueROM
+Info (12021): Found 2 design units, including 1 entities, in source file coinrom.vhd
+    Info (12022): Found design unit 1: coinrom-SYN
+    Info (12023): Found entity 1: CoinROM
+Info (12021): Found 2 design units, including 1 entities, in source file 8x1mux.vhd
+    Info (12022): Found design unit 1: nbit8x1mux-behv
+    Info (12023): Found entity 1: nbit8x1mux
+Info (12021): Found 2 design units, including 1 entities, in source file main_troco.vhd
+    Info (12022): Found design unit 1: main_troco-arrange
+    Info (12023): Found entity 1: main_troco
+Info (12127): Elaborating entity "main_troco" for the top level hierarchy
+Info (12128): Elaborating entity "nbitcounter" for hierarchy "nbitcounter:rom_address"
+Info (12128): Elaborating entity "clock_generator" for hierarchy "clock_generator:clock_20"
+Info (12128): Elaborating entity "clock_generator" for hierarchy "clock_generator:clock_40"
+Info (12128): Elaborating entity "botaosincrono" for hierarchy "botaosincrono:K2S"
+Info (12128): Elaborating entity "ValueROM" for hierarchy "ValueROM:VROM"
+Info (12128): Elaborating entity "altsyncram" for hierarchy "ValueROM:VROM|altsyncram:altsyncram_component"
+Info (12130): Elaborated megafunction instantiation "ValueROM:VROM|altsyncram:altsyncram_component"
+Info (12133): Instantiated megafunction "ValueROM:VROM|altsyncram:altsyncram_component" with the following parameter:
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
+    Info (12134): Parameter "init_file" = "ValueROM.mif"
+    Info (12134): Parameter "intended_device_family" = "Cyclone II"
+    Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+    Info (12134): Parameter "numwords_a" = "16"
+    Info (12134): Parameter "operation_mode" = "ROM"
+    Info (12134): Parameter "outdata_aclr_a" = "NONE"
+    Info (12134): Parameter "outdata_reg_a" = "UNREGISTERED"
+    Info (12134): Parameter "widthad_a" = "4"
+    Info (12134): Parameter "width_a" = "16"
+    Info (12134): Parameter "width_byteena_a" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_b181.tdf
+    Info (12023): Found entity 1: altsyncram_b181
+Info (12128): Elaborating entity "altsyncram_b181" for hierarchy "ValueROM:VROM|altsyncram:altsyncram_component|altsyncram_b181:auto_generated"
+Info (12128): Elaborating entity "maquinatroco" for hierarchy "maquinatroco:MQ"
+Info (12128): Elaborating entity "nbitmux" for hierarchy "maquinatroco:MQ|nbitmux:tempmux"
+Info (12128): Elaborating entity "nbitreg" for hierarchy "maquinatroco:MQ|nbitreg:tempreg"
+Info (12128): Elaborating entity "nbitadder" for hierarchy "maquinatroco:MQ|nbitadder:temsum"
+Info (12128): Elaborating entity "nbitcounter" for hierarchy "maquinatroco:MQ|nbitcounter:romadrs"
+Info (12128): Elaborating entity "CoinROM" for hierarchy "maquinatroco:MQ|CoinROM:rom"
+Info (12128): Elaborating entity "altsyncram" for hierarchy "maquinatroco:MQ|CoinROM:rom|altsyncram:altsyncram_component"
+Info (12130): Elaborated megafunction instantiation "maquinatroco:MQ|CoinROM:rom|altsyncram:altsyncram_component"
+Info (12133): Instantiated megafunction "maquinatroco:MQ|CoinROM:rom|altsyncram:altsyncram_component" with the following parameter:
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
+    Info (12134): Parameter "init_file" = "CoinROM.mif"
+    Info (12134): Parameter "intended_device_family" = "Cyclone II"
+    Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+    Info (12134): Parameter "numwords_a" = "8"
+    Info (12134): Parameter "operation_mode" = "ROM"
+    Info (12134): Parameter "outdata_aclr_a" = "NONE"
+    Info (12134): Parameter "outdata_reg_a" = "UNREGISTERED"
+    Info (12134): Parameter "widthad_a" = "3"
+    Info (12134): Parameter "width_a" = "16"
+    Info (12134): Parameter "width_byteena_a" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_7s71.tdf
+    Info (12023): Found entity 1: altsyncram_7s71
+Info (12128): Elaborating entity "altsyncram_7s71" for hierarchy "maquinatroco:MQ|CoinROM:rom|altsyncram:altsyncram_component|altsyncram_7s71:auto_generated"
+Info (12128): Elaborating entity "nbitcompmag" for hierarchy "maquinatroco:MQ|nbitcompmag:comptemp"
+Info (12128): Elaborating entity "nbitcompmag" for hierarchy "maquinatroco:MQ|nbitcompmag:compadrs"
+Info (12128): Elaborating entity "nbitcounter" for hierarchy "maquinatroco:MQ|nbitcounter:cont100"
+Info (12128): Elaborating entity "nbit8x1mux" for hierarchy "nbit8x1mux:MX81"
+Info (12128): Elaborating entity "BinDisplay" for hierarchy "BinDisplay:DSP"
+Info (12128): Elaborating entity "BinBCD" for hierarchy "BinDisplay:DSP|BinBCD:BBCD"
+Info (12128): Elaborating entity "binbcdbox" for hierarchy "BinDisplay:DSP|BinBCD:BBCD|binbcdbox:Box00"
+Info (12128): Elaborating entity "BinTo7Segment" for hierarchy "BinDisplay:DSP|BinTo7Segment:Hex00"
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "Hex5[1]" is stuck at GND
+    Warning (13410): Pin "Hex5[2]" is stuck at GND
+    Warning (13410): Pin "Hex5[6]" is stuck at VCC
+Info (17049): 2 registers lost all their fanouts during netlist optimizations.
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 681 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 13 input pins
+    Info (21059): Implemented 53 output pins
+    Info (21061): Implemented 583 logic cells
+    Info (21064): Implemented 32 RAM segments
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 560 megabytes
+    Info: Processing ended: Tue Aug 22 01:03:10 2017
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:05
+
+

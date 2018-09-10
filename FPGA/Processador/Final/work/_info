@@ -1,0 +1,538 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.0sp1
+Ealu_async
+Z0 w1504545597
+Z1 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dD:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\Processador\Beta02
+Z6 8D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/ALU-Async.vhd
+Z7 FD:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/ALU-Async.vhd
+l0
+L5
+Vc_05_VQ=LeYZz6DLI`kYK3
+Z8 OV;C;10.1d;51
+32
+Z9 !s108 1504986340.021000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/ALU-Async.vhd|
+Z11 !s107 D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/ALU-Async.vhd|
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+!s100 =^4nb5_jTjK<<8^U7l1cd0
+!i10b 1
+Aarrangment
+R1
+R2
+R3
+R4
+DEx4 work 9 alu_async 0 22 c_05_VQ=LeYZz6DLI`kYK3
+l51
+L24
+VnECjHBAm[Dj@zYoAHgDnP0
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 2[n[8glNWNI6SgD1d9T`W2
+!i10b 1
+Ebinto7segment
+Z14 w1503499237
+R3
+R4
+R5
+Z15 8D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/BinTo7Segment.vhd
+Z16 FD:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/BinTo7Segment.vhd
+l0
+L4
+VZM7@=h<e?:fdB:6g<0Uc_2
+R8
+32
+Z17 !s108 1504986340.711000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/BinTo7Segment.vhd|
+Z19 !s107 D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/BinTo7Segment.vhd|
+R12
+R13
+!s100 WA0?zDGLl52J^>k5HJVGP3
+!i10b 1
+Ackt
+R3
+R4
+DEx4 work 13 binto7segment 0 22 ZM7@=h<e?:fdB:6g<0Uc_2
+l12
+L9
+VWL11Kf3[Edj;N<jS?>]5D1
+R8
+32
+R17
+R18
+R19
+R12
+R13
+!s100 KTDSz10KUThlWjjS3ZDO32
+!i10b 1
+Eclock_generator
+Z20 w1504301145
+Z21 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R3
+R4
+R5
+Z22 8D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/clockdiv.vhd
+Z23 FD:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/clockdiv.vhd
+l0
+L5
+V0kbQSX`;LQoPgM==f<H]a1
+R8
+32
+Z24 !s108 1504986341.486000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/clockdiv.vhd|
+Z26 !s107 D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/clockdiv.vhd|
+R12
+R13
+!s100 Y[R07<i;J6S[HH?1niVGG3
+!i10b 1
+Artl
+R21
+R3
+R4
+DEx4 work 15 clock_generator 0 22 0kbQSX`;LQoPgM==f<H]a1
+l29
+L12
+VKWll[KC>9cjScSIX9?ozH2
+R8
+32
+R24
+R25
+R26
+R12
+R13
+!s100 glD?]<J7eaR4^kLbjVF0<3
+!i10b 1
+Emain_processador
+Z27 w1504986261
+R1
+R2
+R3
+R4
+R5
+Z28 8D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/main.vhd
+Z29 FD:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/main.vhd
+l0
+L5
+VB9PCGL6_n[_eE>b0SLS?c2
+R8
+32
+Z30 !s108 1504986342.245000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/main.vhd|
+Z32 !s107 D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/main.vhd|
+R12
+R13
+!s100 QNjI[DIzL]W2?53nFN:2D2
+!i10b 1
+Aarrange
+R1
+R2
+R3
+R4
+DEx4 work 16 main_processador 0 22 B9PCGL6_n[_eE>b0SLS?c2
+l58
+L16
+V`Ho0DoRQhDWlP1SLE0Lbc3
+R8
+32
+R30
+R31
+R32
+R12
+R13
+!s100 iRH5G:n]SEf9:]gY;]L:]0
+!i10b 1
+Enbit16registerbank
+w1504467387
+R1
+R2
+R3
+R4
+Z33 dD:\Desktop\Beta02
+Z34 8D:/Desktop/Beta02/nbitregisterbank.vhd
+Z35 FD:/Desktop/Beta02/nbitregisterbank.vhd
+l0
+L5
+VUA@n]JKYQU=]m?TgZGFU93
+R8
+32
+R12
+R13
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Beta02/nbitregisterbank.vhd|
+Z37 !s107 D:/Desktop/Beta02/nbitregisterbank.vhd|
+!s100 H4JPlYIkZ`_@N^P5M2B;S3
+!i10b 1
+!s108 1504467409.943000
+Aarrange
+w1504467439
+R1
+R2
+R3
+R4
+DEx4 work 18 nbit16registerbank 0 22 UA@n]JKYQU=]m?TgZGFU93
+l27
+L14
+VUU@0mQbdf5in]EI`m;BH<3
+R8
+32
+R36
+R37
+R12
+R13
+!s108 1504467444.438000
+!s100 6Fo7@AE3ZM_ZFAz1O10aH0
+!i10b 1
+Enbitadder
+Z38 w1504545522
+R1
+R2
+R3
+R4
+R5
+Z39 8D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/nbitadder.vhd
+Z40 FD:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/nbitadder.vhd
+l0
+L5
+VKYI`4JcMUBfnReznOI0`;2
+R8
+32
+Z41 !s108 1504986343.063000
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/nbitadder.vhd|
+Z43 !s107 D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/nbitadder.vhd|
+R12
+R13
+!s100 W5<FF>a6B@QG2lomkF^i?2
+!i10b 1
+Abehaviour
+R1
+R2
+R3
+R4
+DEx4 work 9 nbitadder 0 22 KYI`4JcMUBfnReznOI0`;2
+l17
+L13
+V64JNfSMW`_5K6T6zUSj210
+R8
+32
+R41
+R42
+R43
+R12
+R13
+!s100 UaRfi?QXL6GARUCcBYFc@0
+!i10b 1
+Enbitcompmag
+Z44 w1504301155
+R1
+R2
+R3
+R4
+R5
+Z45 8D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/nbitcompmag.vhd
+Z46 FD:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/nbitcompmag.vhd
+l0
+L5
+VVO70`l1569[:W1CV6]^JP1
+R8
+32
+Z47 !s108 1504986343.782000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/nbitcompmag.vhd|
+Z49 !s107 D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/nbitcompmag.vhd|
+R12
+R13
+!s100 OH>mUdTM1HMG?k923a`Og1
+!i10b 1
+Acircuit
+R1
+R2
+R3
+R4
+DEx4 work 11 nbitcompmag 0 22 VO70`l1569[:W1CV6]^JP1
+l15
+L11
+VFT?IfSe5K;@il2D78I3ZR0
+R8
+32
+R47
+R48
+R49
+R12
+R13
+!s100 UL[Y>_d84gc<aR`FQlPkA3
+!i10b 1
+Enbitcounter
+Z50 w1504348967
+R1
+R2
+R3
+R4
+R5
+Z51 8D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/nbitcounter.vhd
+Z52 FD:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/nbitcounter.vhd
+l0
+L5
+VOG;7n]kBlk=`TRhi^fNAc2
+R8
+32
+Z53 !s108 1504986344.437000
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/nbitcounter.vhd|
+Z55 !s107 D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/nbitcounter.vhd|
+R12
+R13
+!s100 0mnfkD67nBi5L0dW_bR<W3
+!i10b 1
+Abehv
+R1
+R2
+R3
+R4
+DEx4 work 11 nbitcounter 0 22 OG;7n]kBlk=`TRhi^fNAc2
+l15
+L13
+VFCmZUoDFaFmIcHRnodeVh1
+R8
+32
+R53
+R54
+R55
+R12
+R13
+!s100 <[AIJbcfU0Gm9U[39<GP`2
+!i10b 1
+Enbitmux
+Z56 w1504301159
+R1
+R2
+R3
+R4
+R33
+Z57 8D:/Desktop/Beta02/nbitmux.vhd
+Z58 FD:/Desktop/Beta02/nbitmux.vhd
+l0
+L5
+VMa9TMH?PYoINjNc0A<gFT1
+R8
+32
+Z59 !s108 1504348629.424000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Beta02/nbitmux.vhd|
+Z61 !s107 D:/Desktop/Beta02/nbitmux.vhd|
+R12
+R13
+!s100 ldnAi3g8]Uo?64HlBjYhG1
+!i10b 1
+Acircuit
+R1
+R2
+R3
+R4
+DEx4 work 7 nbitmux 0 22 Ma9TMH?PYoINjNc0A<gFT1
+l14
+L12
+VghnLjQgkM_N86[T0CoFH70
+R8
+32
+R59
+R60
+R61
+R12
+R13
+!s100 <iDRXljLP8cKoA;Af]RlU3
+!i10b 1
+Enbitreg
+Z62 w1504404068
+R1
+R2
+R3
+R4
+R5
+Z63 8D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/nbitregister.vhd
+Z64 FD:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/nbitregister.vhd
+l0
+L5
+V0=DRGT5Ko4_3Jc0Q8WR>i1
+R8
+32
+Z65 !s108 1504986345.187000
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/nbitregister.vhd|
+Z67 !s107 D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/nbitregister.vhd|
+R12
+R13
+!s100 ]4DzPdT_oTKICHkV7o_eD0
+!i10b 1
+Abehaviour
+R1
+R2
+R3
+R4
+DEx4 work 7 nbitreg 0 22 0=DRGT5Ko4_3Jc0Q8WR>i1
+l13
+L12
+VLa]3RW>AR2z_ETP]<>6k12
+R8
+32
+R65
+R66
+R67
+R12
+R13
+!s100 C:R0UiPPEVXbl2DZWe>QU2
+!i10b 1
+Enbitregisterbank
+Z68 w1504532058
+R1
+R2
+R3
+R4
+R5
+Z69 8D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/nbitregisterbank.vhd
+Z70 FD:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/nbitregisterbank.vhd
+l0
+L5
+V@K=hGDOWMYFce2^?05K4_3
+R8
+32
+Z71 !s108 1504986345.955000
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/nbitregisterbank.vhd|
+Z73 !s107 D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/nbitregisterbank.vhd|
+R12
+R13
+!s100 H81?KXzn77g<`BSAI`geo0
+!i10b 1
+Aarrange
+R1
+R2
+R3
+R4
+DEx4 work 16 nbitregisterbank 0 22 @K=hGDOWMYFce2^?05K4_3
+l27
+L14
+VD@MGVOe0_41dMeQ][80b:0
+R8
+32
+R71
+R72
+R73
+R12
+R13
+!s100 ;R]=[^Kae[kYaECdTAFX61
+!i10b 1
+Enbitshifter
+Z74 w1504404155
+R3
+R4
+R5
+Z75 8D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/Shifter.vhd
+Z76 FD:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/Shifter.vhd
+l0
+L4
+V;8XS]kbZhRM34Z^]dicb10
+!s100 fEkb_Iigk^az3^O^mCcKm0
+R8
+32
+!i10b 1
+Z77 !s108 1504986348.359000
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/Shifter.vhd|
+Z79 !s107 D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/Shifter.vhd|
+R12
+R13
+Abehaviour
+R3
+R4
+Z80 DEx4 work 11 nbitshifter 0 22 ;8XS]kbZhRM34Z^]dicb10
+l42
+L14
+Z81 Vf`_fMi09iU_2[;Mm70H9_3
+Z82 !s100 QjOD?`d?@AJLFeLW7lM[V2
+R8
+32
+!i10b 1
+R77
+R78
+R79
+R12
+R13
+Eprocessador
+Z83 w1504985957
+R1
+R2
+R3
+R4
+R5
+Z84 8D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\Processador\Beta02\processador.vhd
+Z85 FD:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\Processador\Beta02\processador.vhd
+l0
+L5
+Vhz3W24=`m@WPaUfcDXH7N3
+R8
+32
+Z86 !s108 1504986346.692000
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\Processador\Beta02\processador.vhd|
+Z88 !s107 D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\Processador\Beta02\processador.vhd|
+R12
+R13
+!s100 nkQggbUK?oI33>F`QanFL3
+!i10b 1
+Aarrangment
+R1
+R2
+R3
+R4
+DEx4 work 11 processador 0 22 hz3W24=`m@WPaUfcDXH7N3
+l63
+L15
+Vj;44bF1J@RL01l4S0U[6Q3
+R8
+32
+R86
+R87
+R88
+R12
+R13
+!s100 `9H2SH^N1n945h^kR_3Oi1
+!i10b 1
+Eram
+Z89 w1504473443
+R3
+R4
+R5
+Z90 8D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/RAM.vhd
+Z91 FD:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/RAM.vhd
+l0
+L42
+V1@5G]<O?aGn@XO?mOTk^k1
+R8
+32
+Z92 !s108 1504986347.497000
+Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/RAM.vhd|
+Z94 !s107 D:/GoogleDrive/2017/2017.2/Sistemas Digitais/Matheus - Iago/Processador/Beta02/RAM.vhd|
+R12
+R13
+!s100 HRG3nSV1T:DYSCY;KJ]Z_1
+!i10b 1
+Asyn
+R3
+R4
+DEx4 work 3 ram 0 22 1@5G]<O?aGn@XO?mOTk^k1
+l106
+L58
+VU1AGGK>QPdeJQI_7Z]4c51
+!s100 5hiF0EaPX0KaV;Q[1aj?i2
+R8
+32
+R92
+R93
+R94
+R12
+R13
+!i10b 1

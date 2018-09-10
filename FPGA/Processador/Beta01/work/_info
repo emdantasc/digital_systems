@@ -1,0 +1,393 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.0sp1
+Ealu
+Z0 w1504152512
+Z1 DPx4 ieee 16 std_logic_signed 0 22 E>OLoMaBGQ?hbGgOoNXM^1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dD:\Desktop\Processador
+Z7 8D:/Desktop/Processador/ALU.vhd
+Z8 FD:/Desktop/Processador/ALU.vhd
+l0
+L6
+V]M32Ph7lKSiAh:IjUh;1l2
+Z9 OV;C;10.1d;51
+32
+Z10 !s108 1504152516.632000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processador/ALU.vhd|
+Z12 !s107 D:/Desktop/Processador/ALU.vhd|
+Z13 o-work work -2002 -explicit -O0
+Z14 tExplicit 1
+!s100 fUh30QlO<:n5>IM_@;oM>1
+!i10b 1
+Aarrange
+R1
+R2
+R3
+R4
+R5
+DEx4 work 3 alu 0 22 ]M32Ph7lKSiAh:IjUh;1l2
+l73
+L28
+V;FVN3TlTWnaHP@hX<U1HM2
+R9
+32
+R10
+R11
+R12
+R13
+R14
+!s100 YkQJe3z0;EB^IR?XAVnLb1
+!i10b 1
+Ealu_async
+Z15 w1504232576
+R4
+R5
+R6
+Z16 8D:/Desktop/Processador/ALU-Async.vhd
+Z17 FD:/Desktop/Processador/ALU-Async.vhd
+l0
+L4
+Vn7?iGHilXUg=1P:oO`GZ42
+!s100 `gA>YA<naY;NI<3d;L0T_1
+R9
+32
+!i10b 1
+Z18 !s108 1504232590.470000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processador/ALU-Async.vhd|
+Z20 !s107 D:/Desktop/Processador/ALU-Async.vhd|
+R13
+R14
+Aarrangment
+R4
+R5
+Z21 DEx4 work 9 alu_async 0 22 n7?iGHilXUg=1P:oO`GZ42
+l57
+L23
+VG[4=Dd?_S?bHBQ]oCXoWd3
+!s100 imcJ:=iLaF8@V]ENCVXPQ0
+R9
+32
+!i10b 1
+R18
+R19
+R20
+R13
+R14
+Eclock_generator
+Z22 w1504014316
+Z23 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R4
+R5
+R6
+Z24 8D:/Desktop/Processador/clockdiv.vhd
+Z25 FD:/Desktop/Processador/clockdiv.vhd
+l0
+L5
+V0kbQSX`;LQoPgM==f<H]a1
+R9
+32
+Z26 !s108 1504231806.428000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processador/clockdiv.vhd|
+Z28 !s107 D:/Desktop/Processador/clockdiv.vhd|
+R13
+R14
+!s100 Y[R07<i;J6S[HH?1niVGG3
+!i10b 1
+Artl
+R23
+R4
+R5
+DEx4 work 15 clock_generator 0 22 0kbQSX`;LQoPgM==f<H]a1
+l29
+L12
+VKWll[KC>9cjScSIX9?ozH2
+R9
+32
+R26
+R27
+R28
+R13
+R14
+!s100 glD?]<J7eaR4^kLbjVF0<3
+!i10b 1
+Enbitadder
+Z29 w1504230792
+R2
+R3
+R4
+R5
+R6
+Z30 8D:/Desktop/Processador/nbitadder.vhd
+Z31 FD:/Desktop/Processador/nbitadder.vhd
+l0
+L5
+V3e3zH4UzO3Ia0>80:eG070
+R9
+32
+Z32 !s108 1504231806.676000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processador/nbitadder.vhd|
+Z34 !s107 D:/Desktop/Processador/nbitadder.vhd|
+R13
+R14
+!s100 ncHRIkga8ZElTmGP64CY40
+!i10b 1
+Abehaviour
+R2
+R3
+R4
+R5
+DEx4 work 9 nbitadder 0 22 3e3zH4UzO3Ia0>80:eG070
+l17
+L13
+V64JNfSMW`_5K6T6zUSj210
+R9
+32
+R32
+R33
+R34
+R13
+R14
+!s100 UaRfi?QXL6GARUCcBYFc@0
+!i10b 1
+Enbitcompmag
+Z35 w1503499234
+R2
+R3
+R4
+R5
+R6
+Z36 8D:/Desktop/Processador/nbitcompmag.vhd
+Z37 FD:/Desktop/Processador/nbitcompmag.vhd
+l0
+L5
+VVO70`l1569[:W1CV6]^JP1
+R9
+32
+Z38 !s108 1504231806.922000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processador/nbitcompmag.vhd|
+Z40 !s107 D:/Desktop/Processador/nbitcompmag.vhd|
+R13
+R14
+!s100 OH>mUdTM1HMG?k923a`Og1
+!i10b 1
+Acircuit
+R2
+R3
+R4
+R5
+DEx4 work 11 nbitcompmag 0 22 VO70`l1569[:W1CV6]^JP1
+l15
+L11
+VFT?IfSe5K;@il2D78I3ZR0
+R9
+32
+R38
+R39
+R40
+R13
+R14
+!s100 UL[Y>_d84gc<aR`FQlPkA3
+!i10b 1
+Enbitcounter
+Z41 w1504146702
+R2
+R3
+R4
+R5
+R6
+Z42 8D:/Desktop/Processador/nbitcounter.vhd
+Z43 FD:/Desktop/Processador/nbitcounter.vhd
+l0
+L5
+VfJT7c9Og5Sb[V:3AOX8i:3
+R9
+32
+Z44 !s108 1504231807.159000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processador/nbitcounter.vhd|
+Z46 !s107 D:/Desktop/Processador/nbitcounter.vhd|
+R13
+R14
+!s100 f^cRdd^3`5`FbflVEM9Tc2
+!i10b 1
+Abehv
+R2
+R3
+R4
+R5
+DEx4 work 11 nbitcounter 0 22 fJT7c9Og5Sb[V:3AOX8i:3
+l15
+L13
+Vo>enljEd5i]o[oNLG<F1S2
+R9
+32
+R44
+R45
+R46
+R13
+R14
+!s100 L<fobZXB8T?[RHIzUWK932
+!i10b 1
+Enbitmodule
+Z47 w1504214116
+R1
+R2
+R3
+R4
+R5
+R6
+Z48 8D:/Desktop/Processador/module.vhd
+Z49 FD:/Desktop/Processador/module.vhd
+l0
+L6
+VDNE]lFoN1nC58X]L0FV<h0
+R9
+32
+Z50 !s108 1504231811.403000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processador/module.vhd|
+Z52 !s107 D:/Desktop/Processador/module.vhd|
+R13
+R14
+!s100 oaiK_dnKGTgH_^T:=;;hB0
+!i10b 1
+Aarrange
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 nbitmodule 0 22 DNE]lFoN1nC58X]L0FV<h0
+l32
+L13
+VZl`bJL9XHcNT4LSWQC;ND2
+R9
+32
+R50
+R51
+R52
+R13
+R14
+!s100 U`B2QQlo?lFb?h@_`[jmm2
+!i10b 1
+Enbitmux
+Z53 w1504014321
+R2
+R3
+R4
+R5
+R6
+Z54 8D:/Desktop/Processador/nbitmux.vhd
+Z55 FD:/Desktop/Processador/nbitmux.vhd
+l0
+L5
+VMa9TMH?PYoINjNc0A<gFT1
+R9
+32
+Z56 !s108 1504231807.392000
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processador/nbitmux.vhd|
+Z58 !s107 D:/Desktop/Processador/nbitmux.vhd|
+R13
+R14
+!s100 ldnAi3g8]Uo?64HlBjYhG1
+!i10b 1
+Acircuit
+R2
+R3
+R4
+R5
+DEx4 work 7 nbitmux 0 22 Ma9TMH?PYoINjNc0A<gFT1
+l14
+L12
+VghnLjQgkM_N86[T0CoFH70
+R9
+32
+R56
+R57
+R58
+R13
+R14
+!s100 <iDRXljLP8cKoA;Af]RlU3
+!i10b 1
+Enbitmux4x1
+Z59 w1504112875
+R2
+R3
+R4
+R5
+R6
+Z60 8D:/Desktop/Processador/4x1nbitmux.vhd
+Z61 FD:/Desktop/Processador/4x1nbitmux.vhd
+l0
+L5
+VQT8P3o5iO4zk^kL_Z@6f<1
+R9
+32
+Z62 !s108 1504231804.317000
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processador/4x1nbitmux.vhd|
+Z64 !s107 D:/Desktop/Processador/4x1nbitmux.vhd|
+R13
+R14
+!s100 USK>l6DS2k8EYRBKYP]>T2
+!i10b 1
+Aarrangment
+R2
+R3
+R4
+R5
+DEx4 work 10 nbitmux4x1 0 22 QT8P3o5iO4zk^kL_Z@6f<1
+l22
+L12
+VU]_LzV_>@6n32]UMlYzdl0
+R9
+32
+R62
+R63
+R64
+R13
+R14
+!s100 zSmS;IM9E8MA<R;f0LHoi2
+!i10b 1
+Enbitreg
+Z65 w1504146722
+R2
+R3
+R4
+R5
+R6
+Z66 8D:/Desktop/Processador/nbitregister.vhd
+Z67 FD:/Desktop/Processador/nbitregister.vhd
+l0
+L5
+VS[Q^1^ikK74lLEi`^b;AV2
+R9
+32
+Z68 !s108 1504146726.614000
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processador/nbitregister.vhd|
+Z70 !s107 D:/Desktop/Processador/nbitregister.vhd|
+R13
+R14
+!s100 0c[;kSVSZ>?i:2Z`N]<:d0
+!i10b 1
+Abehaviour
+R2
+R3
+R4
+R5
+DEx4 work 7 nbitreg 0 22 S[Q^1^ikK74lLEi`^b;AV2
+l13
+L12
+V@1g7Smj0DJD^[zPDEeFF42
+R9
+32
+R68
+R69
+R70
+R13
+R14
+!s100 DMURI5_6_>ZZj_QS>`NSU1
+!i10b 1

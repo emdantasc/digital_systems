@@ -1,0 +1,132 @@
+Flow report for Atividade08
+Tue Aug 29 10:42:49 2017
+Quartus II 32-bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------------------+
+; Flow Summary                                                                    ;
++------------------------------------+--------------------------------------------+
+; Flow Status                        ; Successful - Tue Aug 29 10:42:49 2017      ;
+; Quartus II 32-bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
+; Revision Name                      ; Atividade08                                ;
+; Top-level Entity Name              ; main_processador                           ;
+; Family                             ; Cyclone II                                 ;
+; Device                             ; EP2C35F672C6                               ;
+; Timing Models                      ; Final                                      ;
+; Total logic elements               ; 1,096 / 33,216 ( 3 % )                     ;
+;     Total combinational functions  ; 973 / 33,216 ( 3 % )                       ;
+;     Dedicated logic registers      ; 330 / 33,216 ( < 1 % )                     ;
+; Total registers                    ; 330                                        ;
+; Total pins                         ; 69 / 475 ( 15 % )                          ;
+; Total virtual pins                 ; 0                                          ;
+; Total memory bits                  ; 8,192 / 483,840 ( 2 % )                    ;
+; Embedded Multiplier 9-bit elements ; 0 / 70 ( 0 % )                             ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                              ;
++------------------------------------+--------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 08/29/2017 10:42:08 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; Atividade08         ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                         ;
++-------------------------------------+--------------------------------+---------------+------------------+----------------+
+; Assignment Name                     ; Value                          ; Default Value ; Entity Name      ; Section Id     ;
++-------------------------------------+--------------------------------+---------------+------------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 48549633039920.150401412802704 ; --            ; --               ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                           ; --            ; --               ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)         ; <None>        ; --               ; --             ;
+; IP_TOOL_NAME                        ; ROM: 1-PORT                    ; --            ; --               ; --             ;
+; IP_TOOL_NAME                        ; RAM: 2-PORT                    ; --            ; --               ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                           ; --            ; --               ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                           ; --            ; --               ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                             ; --            ; --               ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                              ; --            ; --               ; --             ;
+; PARTITION_COLOR                     ; 16764057                       ; --            ; main_processador ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; main_processador ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --            ; main_processador ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --            ; --               ; --             ;
+; TOP_LEVEL_ENTITY                    ; main_processador               ; Atividade08   ; --               ; --             ;
++-------------------------------------+--------------------------------+---------------+------------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:09     ; 1.0                     ; 392 MB              ; 00:00:09                           ;
+; Fitter                    ; 00:00:22     ; 1.0                     ; 484 MB              ; 00:00:22                           ;
+; Assembler                 ; 00:00:03     ; 1.0                     ; 344 MB              ; 00:00:03                           ;
+; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 329 MB              ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 311 MB              ; 00:00:02                           ;
+; Total                     ; 00:00:37     ; --                      ; --                  ; 00:00:38                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; LHR08            ; Windows 7 ; 6.1        ; x86_64         ;
+; Fitter                    ; LHR08            ; Windows 7 ; 6.1        ; x86_64         ;
+; Assembler                 ; LHR08            ; Windows 7 ; 6.1        ; x86_64         ;
+; TimeQuest Timing Analyzer ; LHR08            ; Windows 7 ; 6.1        ; x86_64         ;
+; EDA Netlist Writer        ; LHR08            ; Windows 7 ; 6.1        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Atividade08 -c Atividade08
+quartus_fit --read_settings_files=off --write_settings_files=off Atividade08 -c Atividade08
+quartus_asm --read_settings_files=off --write_settings_files=off Atividade08 -c Atividade08
+quartus_sta Atividade08 -c Atividade08
+quartus_eda --read_settings_files=off --write_settings_files=off Atividade08 -c Atividade08
+
+
+

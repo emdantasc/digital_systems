@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity mux8in14b is
+  port( Data0, Data1, Data2, Data3, Data4, Data5, Data6, Data7: in std_logic_vector(13 downto 0);
+        selector: in std_logic_vector (2 downto 0);
+        Out_Data: out std_logic_vector(13 downto 0));
+end mux8in14b;
+
+architecture circuit of mux8in14b is
+
+begin
+  
+  with selector select Out_Data<=
+      Data0 when "000",
+      Data1 when "001",
+      Data2 when "010",
+      Data3 when "011",
+      Data4 when "100",
+      Data5 when "101",
+      Data6 when "110",
+      Data7 when "111",
+      "00000000000000" when others;
+end circuit;

@@ -1,0 +1,12 @@
+vsim nbitreg
+add wave *
+
+force data_entry "00110011" 0ns
+force enable 0 0ns, 1 10ns, 0 15ns 
+force clk 0 0ns, 1 5ns -repeat 10ns
+force clear 1 0ns, 0 5ns
+force shl_en 0 0ns, 1 20ns, 0 30ns
+force shr_en 0 0ns, 1 35ns, 0 45ns
+
+
+run 50ns

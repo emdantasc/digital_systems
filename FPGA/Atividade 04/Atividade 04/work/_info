@@ -1,0 +1,285 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.0sp1
+Ebinbcd
+Z0 w1501252722
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dd:\햞ea de Trabalho\Atividade 04
+Z4 8D:/햞ea de Trabalho/Atividade 04/BinBCD.vhd
+Z5 FD:/햞ea de Trabalho/Atividade 04/BinBCD.vhd
+l0
+L4
+VLY]_Ma7naiKDTg8XOUX5i3
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1501691675.996000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/햞ea de Trabalho/Atividade 04/BinBCD.vhd|
+Z9 !s107 D:/햞ea de Trabalho/Atividade 04/BinBCD.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 IZTBV:g^lkd413eUI8FW90
+!i10b 1
+Aarrange
+R1
+R2
+DEx4 work 6 binbcd 0 22 LY]_Ma7naiKDTg8XOUX5i3
+l18
+L9
+VioP6NhzYl^8U[<1BJ17Ki0
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 XXT:4A>l9UUgfIoT]XZPZ1
+!i10b 1
+Ebinbcdbox
+Z12 w1501252722
+R1
+R2
+R3
+Z13 8D:/햞ea de Trabalho/Atividade 04/binbcdbox.vhd
+Z14 FD:/햞ea de Trabalho/Atividade 04/binbcdbox.vhd
+l0
+L4
+VnM4n0JYgWfANZY52nFnOi1
+R6
+32
+Z15 !s108 1501691676.536000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/햞ea de Trabalho/Atividade 04/binbcdbox.vhd|
+Z17 !s107 D:/햞ea de Trabalho/Atividade 04/binbcdbox.vhd|
+R10
+R11
+!s100 ;0NSiZa59Rc_J?Q3NJIbl2
+!i10b 1
+Ackt
+R1
+R2
+DEx4 work 9 binbcdbox 0 22 nM4n0JYgWfANZY52nFnOi1
+l11
+L9
+V7Mon7Lz?2jULOal1YE`S;1
+R6
+32
+R15
+R16
+R17
+R10
+R11
+!s100 URBXWdhK=IS7PS>[m290B0
+!i10b 1
+Ebindisplay
+R12
+R1
+R2
+R3
+Z18 8D:/햞ea de Trabalho/Atividade 04/BinDisplay.vhd
+Z19 FD:/햞ea de Trabalho/Atividade 04/BinDisplay.vhd
+l0
+L4
+VO@YZ2ZS2zBn09:ZFA_Abg0
+R6
+32
+Z20 !s108 1501691676.955000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/햞ea de Trabalho/Atividade 04/BinDisplay.vhd|
+Z22 !s107 D:/햞ea de Trabalho/Atividade 04/BinDisplay.vhd|
+R10
+R11
+!s100 LIK4hnH20ggUQQGa2PXg63
+!i10b 1
+Aarrange
+R1
+R2
+DEx4 work 10 bindisplay 0 22 O@YZ2ZS2zBn09:ZFA_Abg0
+l23
+L9
+VQ5jdSN;hibbeYJeBf4@W]3
+R6
+32
+R20
+R21
+R22
+R10
+R11
+!s100 i<@WmTNejL0FcERoIY3Q_2
+!i10b 1
+Ebinto7segment
+Z23 w1501254476
+R1
+R2
+R3
+Z24 8D:/햞ea de Trabalho/Atividade 04/BinTo7Segment.vhd
+Z25 FD:/햞ea de Trabalho/Atividade 04/BinTo7Segment.vhd
+l0
+L4
+VZM7@=h<e?:fdB:6g<0Uc_2
+R6
+32
+Z26 !s108 1501691677.326000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/햞ea de Trabalho/Atividade 04/BinTo7Segment.vhd|
+Z28 !s107 D:/햞ea de Trabalho/Atividade 04/BinTo7Segment.vhd|
+R10
+R11
+!s100 WA0?zDGLl52J^>k5HJVGP3
+!i10b 1
+Ackt
+R1
+R2
+DEx4 work 13 binto7segment 0 22 ZM7@=h<e?:fdB:6g<0Uc_2
+l12
+L9
+VWL11Kf3[Edj;N<jS?>]5D1
+R6
+32
+R26
+R27
+R28
+R10
+R11
+!s100 VRePGnK1ZBGFhnb7:5E=21
+!i10b 1
+Ecofre
+Z29 w1501689070
+R1
+R2
+Z30 dD:\햞ea de Trabalho\Atividade 04
+Z31 8D:/햞ea de Trabalho/Atividade 03/cofre.vhd
+Z32 FD:/햞ea de Trabalho/Atividade 03/cofre.vhd
+l0
+L4
+V3W7OWM@`TERDTBLfgmB6O0
+R6
+32
+Z33 !s108 1501691386.798000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/햞ea de Trabalho/Atividade 03/cofre.vhd|
+Z35 !s107 D:/햞ea de Trabalho/Atividade 03/cofre.vhd|
+R10
+R11
+!s100 j]Rcc[15]8CckBnTDhJG42
+!i10b 1
+Aconstruction
+R1
+R2
+DEx4 work 5 cofre 0 22 3W7OWM@`TERDTBLfgmB6O0
+l22
+L10
+Va1QHTU`n=;3c]H`8GaVQQ0
+R6
+32
+R33
+R34
+R35
+R10
+R11
+!s100 RO9lz1[c]H>hAZT0@P[Qz2
+!i10b 1
+Emux8in14b
+Z36 w1501690555
+R1
+R2
+R3
+Z37 8D:\햞ea de Trabalho\Atividade 04\mux8in14bits.vhd
+Z38 FD:\햞ea de Trabalho\Atividade 04\mux8in14bits.vhd
+l0
+L4
+V=B=kQAA6RMZ8;C@Ph9HgP0
+R6
+32
+Z39 !s108 1501691674.964000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:\햞ea de Trabalho\Atividade 04\mux8in14bits.vhd|
+Z41 !s107 D:\햞ea de Trabalho\Atividade 04\mux8in14bits.vhd|
+R10
+R11
+!s100 4Vn?_Oi;D@P6A14ejAm3K0
+!i10b 1
+Acircuit
+R1
+R2
+DEx4 work 9 mux8in14b 0 22 =B=kQAA6RMZ8;C@Ph9HgP0
+l12
+L10
+V6YbSUIzkW15fm<VJ]^VKM1
+R6
+32
+R39
+R40
+R41
+R10
+R11
+!s100 I24PkZWf14Hg2bWbd20OB1
+!i10b 1
+Equeue
+Z42 w1501693763
+R1
+R2
+R3
+Z43 8D:/햞ea de Trabalho/Atividade 04/main_queue.vhd
+Z44 FD:/햞ea de Trabalho/Atividade 04/main_queue.vhd
+l0
+L4
+V>bS[Ol7<H;PRWGLZjm3k;0
+!s100 hNeS?7Io62Jl@HfEh?@_=0
+R6
+32
+!i10b 1
+Z45 !s108 1501693771.468000
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/햞ea de Trabalho/Atividade 04/main_queue.vhd|
+Z47 !s107 D:/햞ea de Trabalho/Atividade 04/main_queue.vhd|
+R10
+R11
+Aarrange
+R1
+R2
+DEx4 work 5 queue 0 22 >bS[Ol7<H;PRWGLZjm3k;0
+l32
+L11
+Vlb;OB7QU^m3E4n7mi5VU20
+!s100 78HJO7>JOz2`Thoz8WlnN1
+R6
+32
+!i10b 1
+R45
+R46
+R47
+R10
+R11
+Eregister16b
+Z48 w1501692833
+R1
+R2
+R3
+Z49 8D:/햞ea de Trabalho/Atividade 04/register.vhd
+Z50 FD:/햞ea de Trabalho/Atividade 04/register.vhd
+l0
+L4
+V2CC6@=]^oVmk@^7IznMOU0
+R6
+32
+Z51 !s108 1501692838.510000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/햞ea de Trabalho/Atividade 04/register.vhd|
+Z53 !s107 D:/햞ea de Trabalho/Atividade 04/register.vhd|
+R10
+R11
+!s100 8e9@PD@B@d`=gP1=FiznI2
+!i10b 1
+Acircuit
+R1
+R2
+DEx4 work 11 register16b 0 22 2CC6@=]^oVmk@^7IznMOU0
+l12
+L10
+Vh3fHD1a[0?FfWJV_Y=BTz3
+R6
+32
+R51
+R52
+R53
+R10
+R11
+!s100 [>6gE7Nz_93PcNzIjA0BA1
+!i10b 1

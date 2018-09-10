@@ -1,0 +1,112 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity queue is 
+  port( data: in std_logic_vector(13 downto 0);
+        address: in std_logic_vector(2 downto 0);
+        load_reg, clear_reg, clock_reg: in std_logic;
+        Hex0, Hex1, Hex2, Hex3: out std_logic_vector(6 downto 0));
+end queue;
+
+architecture arrange of queue is
+  
+  component register16b is
+  port( input_data: in std_logic_vector(15 downto 0);
+        load_data, clear, clk_in: in std_logic;
+        output_data: buffer std_logic_vector(15 downto 0));
+  end component;
+  
+  component BinDisplay is
+	port( Bin: in std_logic_vector (15 downto 0);
+		    Hex70, Hex71, Hex72, Hex73, Hex74: out std_logic_vector(6 downto 0));
+  end component;
+  
+  component mux8in14b is
+  port( Data0, Data1, Data2, Data3, Data4, Data5, Data6, Data7: in std_logic_vector(13 downto 0);
+        selector: in std_logic_vector (2 downto 0);
+        Out_Data: out std_logic_vector(13 downto 0));
+  end component;
+  
+  signal register0, register1, register2, register3, register4, register5, register6, register7: std_logic_vector(15 downto 0);
+  signal binary_in: std_logic_vector(13 downto 0);
+begin
+  
+  Reg00: register16b port map(
+  input_data(15 downto 14)=>"00",
+  input_data(13 downto 0)=>data,
+  load_data=>load_reg,
+  clear=>clear_reg,
+  clk_in=>clock_reg,
+  output_data=>register0);
+
+  Reg01: register16b port map(
+  input_data=>register0,
+  load_data=>load_reg,
+  clear=>clear_reg,
+  clk_in=>clock_reg,
+  output_data=>register1);
+  
+  Reg02: register16b port map(
+  input_data=>register1,
+  load_data=>load_reg,
+  clear=>clear_reg,
+  clk_in=>clock_reg,
+  output_data=>register2);
+  
+  Reg03: register16b port map(
+  input_data=>register2,
+  load_data=>load_reg,
+  clear=>clear_reg,
+  clk_in=>clock_reg,
+  output_data=>register3);
+  
+  Reg04: register16b port map(
+  input_data=>register3,
+  load_data=>load_reg,
+  clear=>clear_reg,
+  clk_in=>clock_reg,
+  output_data=>register4);
+  
+  Reg05: register16b port map(
+  input_data=>register4,
+  load_data=>load_reg,
+  clear=>clear_reg,
+  clk_in=>clock_reg,
+  output_data=>register5);
+  
+  Reg06: register16b port map(
+  input_data=>register5,
+  load_data=>load_reg,
+  clear=>clear_reg,
+  clk_in=>clock_reg,
+  output_data=>register6);
+  
+  Reg07: register16b port map(
+  input_data=>register6,
+  load_data=>load_reg,
+  clear=>clear_reg,
+  clk_in=>clock_reg,
+  output_data=>register7);
+  
+  MX: mux8in14b port map(
+  Data0=>register0(13 downto 0),
+  Data1=>register1(13 downto 0),
+  Data2=>register2(13 downto 0),
+  Data3=>register3(13 downto 0),
+  Data4=>register4(13 downto 0),
+  Data5=>register5(13 downto 0),
+  Data6=>register6(13 downto 0),
+  Data7=>register7(13 downto 0),
+  selector=>address,
+  Out_Data=>binary_in);
+  
+  Display: BinDisplay port map(
+  Bin(15 downto 14)=>"00",
+  Bin(13 downto 0)=>binary_in,
+  Hex70=>Hex0,
+  Hex71=>Hex1,
+  Hex72=>Hex2,
+  Hex73=>Hex3);
+    
+end arrange;
+          

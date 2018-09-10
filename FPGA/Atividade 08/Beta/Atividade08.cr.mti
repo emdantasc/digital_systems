@@ -1,0 +1,124 @@
+C:/Users/Monitor/Desktop/Alpha01/nbitadder.vhd {1 {vcom -work work -2002 -explicit C:/Users/Monitor/Desktop/Alpha01/nbitadder.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitadder
+-- Compiling architecture behaviour of nbitadder
+
+} {} {}} C:/Users/Monitor/Desktop/Alpha01/BinTo7Segment.vhd {1 {vcom -work work -2002 -explicit C:/Users/Monitor/Desktop/Alpha01/BinTo7Segment.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BinTo7Segment
+-- Compiling architecture ckt of BinTo7Segment
+
+} {} {}} C:/Users/Monitor/Desktop/Alpha01/nbitregisterbank.vhd {1 {vcom -work work -2002 -explicit C:/Users/Monitor/Desktop/Alpha01/nbitregisterbank.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbit16registerbank
+-- Compiling architecture arrange of nbit16registerbank
+
+} {} {}} C:/Users/Monitor/Desktop/Alpha01/BinDisplay.vhd {1 {vcom -work work -2002 -explicit C:/Users/Monitor/Desktop/Alpha01/BinDisplay.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BinDisplay
+-- Compiling architecture arrange of BinDisplay
+
+} {} {}} C:/Users/Monitor/Desktop/Alpha01/clockdiv.vhd {1 {vcom -work work -2002 -explicit C:/Users/Monitor/Desktop/Alpha01/clockdiv.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity clock_generator
+-- Compiling architecture rtl of clock_generator
+
+} {} {}} C:/Users/Monitor/Desktop/Alpha01/main_processador.vhd {1 {vcom -work work -2002 -explicit C:/Users/Monitor/Desktop/Alpha01/main_processador.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity main_processador
+-- Compiling architecture arrangment of main_processador
+
+} {} {}} C:/Users/Monitor/Desktop/Alpha01/nbitregister.vhd {1 {vcom -work work -2002 -explicit C:/Users/Monitor/Desktop/Alpha01/nbitregister.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitreg
+-- Compiling architecture behaviour of nbitreg
+
+} {} {}} C:/Users/Monitor/Desktop/Alpha01/binbcdbox.vhd {1 {vcom -work work -2002 -explicit C:/Users/Monitor/Desktop/Alpha01/binbcdbox.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity binbcdbox
+-- Compiling architecture ckt of binbcdbox
+
+} {} {}} C:/Users/Monitor/Desktop/Alpha01/processor_machine.vhd {1 {vcom -work work -2002 -explicit C:/Users/Monitor/Desktop/Alpha01/processor_machine.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity processador_machine
+-- Compiling architecture arrangment of processador_machine
+
+} {} {}} C:/Users/Monitor/Desktop/Alpha01/nbitcounter.vhd {1 {vcom -work work -2002 -explicit C:/Users/Monitor/Desktop/Alpha01/nbitcounter.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitcounter
+-- Compiling architecture behv of nbitcounter
+
+} {} {}} C:/Users/Monitor/Desktop/Alpha01/nbitmux.vhd {1 {vcom -work work -2002 -explicit C:/Users/Monitor/Desktop/Alpha01/nbitmux.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitmux
+-- Compiling architecture circuit of nbitmux
+
+} {} {}} C:/Users/Monitor/Desktop/Alpha01/DataROM.vhd {1 {vcom -work work -2002 -explicit C:/Users/Monitor/Desktop/Alpha01/DataROM.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DataROM
+-- Compiling architecture SYN of datarom
+
+} {} {}} C:/Users/Monitor/Desktop/Alpha01/BinBCD.vhd {1 {vcom -work work -2002 -explicit C:/Users/Monitor/Desktop/Alpha01/BinBCD.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BinBCD
+-- Compiling architecture arrange of BinBCD
+
+} {} {}} C:/Users/Monitor/Desktop/Alpha01/DataRAM.vhd {1 {vcom -work work -2002 -explicit C:/Users/Monitor/Desktop/Alpha01/DataRAM.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DataRAM
+-- Compiling architecture SYN of dataram
+
+} {} {}}

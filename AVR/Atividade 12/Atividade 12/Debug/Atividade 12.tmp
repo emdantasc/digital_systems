@@ -1,0 +1,54 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m328pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\Debug\Atividade 12.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Atividade 12.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Atividade 12.map</FILE>
+  <FILE>Atividade 12.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <setup><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>14</LINE></setup>
+  <ldvalue><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>23</LINE></ldvalue>
+  <bcd_break><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>29</LINE></bcd_break>
+  <reduce100><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>39</LINE></reduce100>
+  <reduce10><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>49</LINE></reduce10>
+  <write><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>54</LINE></write>
+  <ajust><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>45</LINE></ajust>
+  <todisplay><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>86</LINE></todisplay>
+  <delay><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>75</LINE></delay>
+  <L1><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>78</LINE></L1>
+  <write_zero><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>135</LINE></write_zero>
+  <write_one><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>140</LINE></write_one>
+  <write_two><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>145</LINE></write_two>
+  <write_three><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>150</LINE></write_three>
+  <write_four><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>155</LINE></write_four>
+  <write_five><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>160</LINE></write_five>
+  <write_six><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>165</LINE></write_six>
+  <write_seven><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>170</LINE></write_seven>
+  <write_eight><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>175</LINE></write_eight>
+  <write_nine><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>180</LINE></write_nine>
+  <write_a><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>185</LINE></write_a>
+  <write_b><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>190</LINE></write_b>
+  <write_c><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>195</LINE></write_c>
+  <write_d><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>200</LINE></write_d>
+  <write_e><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>205</LINE></write_e>
+  <write_f><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>210</LINE></write_f>
+  <export><FILE>D:\GoogleDrive\2017\2017.2\Sistemas Digitais\Matheus - Iago\AVR\Atividade 12\Atividade 12\main.asm</FILE><LINE>215</LINE></export>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Processador">
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|processador:proc|RAM:dataRAM|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_gh82.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,10 @@
+vsim ALU_async
+add wave *
+
+force A_data "00001111" 0ns 
+force B_data "00001100" 0ns
+force op_code(0) 0 0ns, 1 5ns -repeat 10ns
+force op_code(1) 0 0ns, 1 10ns -repeat 20ns
+force op_code(2) 0 0ns, 1 20ns -repeat 40ns
+
+run 40ns

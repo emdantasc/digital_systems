@@ -1,0 +1,142 @@
+C:/Users/Iago/Desktop/Beta/nbitcompmag.vhd {1 {vcom -work work -2002 -explicit C:/Users/Iago/Desktop/Beta/nbitcompmag.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitcompmag
+-- Compiling architecture circuit of nbitcompmag
+
+} {} {}} C:/Users/Iago/Desktop/Beta/nbitregister.vhd {1 {vcom -work work -2002 -explicit C:/Users/Iago/Desktop/Beta/nbitregister.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitreg
+-- Compiling architecture behaviour of nbitreg
+
+} {} {}} C:/Users/Iago/Desktop/Beta/nbitadder.vhd {1 {vcom -work work -2002 -explicit C:/Users/Iago/Desktop/Beta/nbitadder.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitadder
+-- Compiling architecture behaviour of nbitadder
+
+} {} {}} C:/Users/Iago/Desktop/Beta/BinTo7Segment.vhd {1 {vcom -work work -2002 -explicit C:/Users/Iago/Desktop/Beta/BinTo7Segment.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BinTo7Segment
+-- Compiling architecture ckt of BinTo7Segment
+
+} {} {}} C:/Users/Iago/Desktop/Beta/CoinROM.vhd {1 {vcom -work work -2002 -explicit C:/Users/Iago/Desktop/Beta/CoinROM.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CoinROM
+-- Compiling architecture SYN of coinrom
+
+} {} {}} C:/Users/Iago/Desktop/Beta/botaosincrono.vhd {1 {vcom -work work -2002 -explicit C:/Users/Iago/Desktop/Beta/botaosincrono.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity botaosincrono
+-- Compiling architecture mde of botaosincrono
+
+} {} {}} C:/Users/Iago/Desktop/Beta/BinBCD.vhd {1 {vcom -work work -2002 -explicit C:/Users/Iago/Desktop/Beta/BinBCD.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BinBCD
+-- Compiling architecture arrange of BinBCD
+
+} {} {}} C:/Users/Iago/Desktop/Beta/maquinatroco.vhd {1 {vcom -work work -2002 -explicit C:/Users/Iago/Desktop/Beta/maquinatroco.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity maquinatroco
+-- Compiling architecture arrangment of maquinatroco
+
+} {} {}} C:/Users/Iago/Desktop/Beta/main_troco.vhd {1 {vcom -work work -2002 -explicit C:/Users/Iago/Desktop/Beta/main_troco.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity main_troco
+-- Compiling architecture arrange of main_troco
+
+} {} {}} C:/Users/Iago/Desktop/Beta/ValueROM.vhd {1 {vcom -work work -2002 -explicit C:/Users/Iago/Desktop/Beta/ValueROM.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ValueROM
+-- Compiling architecture SYN of valuerom
+
+} {} {}} C:/Users/Iago/Desktop/Beta/8x1mux.vhd {1 {vcom -work work -2002 -explicit C:/Users/Iago/Desktop/Beta/8x1mux.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbit8x1mux
+-- Compiling architecture behv of nbit8x1mux
+
+} {} {}} C:/Users/Iago/Desktop/Beta/binbcdbox.vhd {1 {vcom -work work -2002 -explicit C:/Users/Iago/Desktop/Beta/binbcdbox.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity binbcdbox
+-- Compiling architecture ckt of binbcdbox
+
+} {} {}} C:/Users/Iago/Desktop/Beta/nbitcounter.vhd {1 {vcom -work work -2002 -explicit C:/Users/Iago/Desktop/Beta/nbitcounter.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitcounter
+-- Compiling architecture behv of nbitcounter
+
+} {} {}} C:/Users/Iago/Desktop/Beta/clockdiv.vhd {1 {vcom -work work -2002 -explicit C:/Users/Iago/Desktop/Beta/clockdiv.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity clock_generator
+-- Compiling architecture rtl of clock_generator
+
+} {} {}} C:/Users/Iago/Desktop/Beta/BinDisplay.vhd {1 {vcom -work work -2002 -explicit C:/Users/Iago/Desktop/Beta/BinDisplay.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BinDisplay
+-- Compiling architecture arrange of BinDisplay
+
+} {} {}} C:/Users/Iago/Desktop/Beta/nbitmux.vhd {1 {vcom -work work -2002 -explicit C:/Users/Iago/Desktop/Beta/nbitmux.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitmux
+-- Compiling architecture circuit of nbitmux
+
+} {} {}}

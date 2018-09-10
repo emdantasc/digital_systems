@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Atividade08">
+		<CBX_INST_ENTRY INSTANCE_NAME="|main_processador|DataRAM:RAM|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_v492.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main_processador|DataROM:ROM|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_2v71.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

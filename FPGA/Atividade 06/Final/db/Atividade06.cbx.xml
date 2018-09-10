@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Atividade06">
+		<CBX_INST_ENTRY INSTANCE_NAME="|main_troco|ValueROM:VROM|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_b181.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main_troco|maquinatroco:MQ|CoinROM:rom|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_7s71.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

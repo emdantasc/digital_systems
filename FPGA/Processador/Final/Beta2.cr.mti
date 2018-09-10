@@ -1,0 +1,87 @@
+d:/Desktop/Beta02/processador.vhd {1 {vcom -work work -2002 -explicit D:/Desktop/Beta02/processador.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity processador
+-- Compiling architecture arrangment of processador
+
+} {} {}} d:/Desktop/Beta02/nbitcompmag.vhd {1 {vcom -work work -2002 -explicit D:/Desktop/Beta02/nbitcompmag.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitcompmag
+-- Compiling architecture circuit of nbitcompmag
+
+} {} {}} d:/Desktop/Beta02/nbitcounter.vhd {1 {vcom -work work -2002 -explicit D:/Desktop/Beta02/nbitcounter.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitcounter
+-- Compiling architecture behv of nbitcounter
+
+} {} {}} d:/Desktop/Beta02/Shifter.vhd {1 {vcom -work work -2002 -explicit D:/Desktop/Beta02/Shifter.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nbitshifter
+-- Compiling architecture behaviour of nbitshifter
+
+} {} {}} d:/Desktop/Beta02/ALU-Async.vhd {1 {vcom -work work -2002 -explicit D:/Desktop/Beta02/ALU-Async.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ALU_async
+-- Compiling architecture arrangment of ALU_async
+
+} {} {}} d:/Desktop/Beta02/nbitadder.vhd {1 {vcom -work work -2002 -explicit D:/Desktop/Beta02/nbitadder.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitadder
+-- Compiling architecture behaviour of nbitadder
+
+} {} {}} d:/Desktop/Beta02/nbitregisterbank.vhd {1 {vcom -work work -2002 -explicit D:/Desktop/Beta02/nbitregisterbank.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitregisterbank
+-- Compiling architecture arrange of nbitregisterbank
+
+} {} {}} d:/Desktop/Beta02/nbitregister.vhd {1 {vcom -work work -2002 -explicit D:/Desktop/Beta02/nbitregister.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitreg
+-- Compiling architecture behaviour of nbitreg
+
+} {} {}} d:/Desktop/Beta02/RAM.vhd {1 {vcom -work work -2002 -explicit D:/Desktop/Beta02/RAM.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity RAM
+-- Compiling architecture SYN of ram
+
+} {} {}}

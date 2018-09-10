@@ -1,0 +1,10 @@
+vsim processador_machine
+add wave *
+
+force clock_machine 0 0ns, 1 5ns -repeat 10ns
+force clr_machine 1 0ns, 0 5ns
+force ROM_data "0000000100000011" 10ns, "0001000100000001" 20ns, "0010001100010010" 30ns
+force RAM_data "0011001100110011" 0ns
+
+
+run 100ns

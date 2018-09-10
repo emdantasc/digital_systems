@@ -1,0 +1,9 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity main_FIFO is
+	port( SW: in std_logic_vector(1 downto 0);
+			Key3, clk_27: in std_logic;
+			Hex0, Hex1, Hex2, Hex3, Hex4, Hex5: out std_logic_vector(6 downto 0));
+end main_FIFO;
+	

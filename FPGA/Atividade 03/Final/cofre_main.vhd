@@ -1,0 +1,56 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity cofre_main is
+   port(Key_0, Key_1, Key_2, Key_3, SW_0, SW_1, clk2: in std_logic;
+        LDR_0, LDR_1: out std_logic;
+        sev_segment: out std_logic_vector(6 downto 0));
+end cofre_main;
+
+architecture arrange of cofre_main is
+  
+  component cofre is
+   port(Key0, Key1, Key2, Key3, SW0, SW1, clk1: in std_logic;
+        LDR0, LDR1: out std_logic;
+        BCD: out std_logic_vector(3 downto 0));
+  end component;
+  
+  component CLK_Div is
+    port(clk_in: in std_logic;
+         clk_out: out std_logic);
+  end component;
+  
+  component BinTo7Segment is
+  port(bin_in: in std_logic_vector(3 downto 0);
+      sevseg_out: out std_logic_vector(6 downto 0));
+  end component;
+  
+  signal clock_effective: std_logic;
+  signal bcd_in: std_logic_vector(3 downto 0);
+  
+begin
+  
+    --clock_effective<=clk2;
+    
+    CLK_10: CLK_Div port map(
+    clk_in=>clk2,
+    clk_out=>clock_effective);
+    
+    Safety: cofre port map(
+    Key0=>Key_0,
+    Key1=>Key_1,
+    Key2=>Key_2,
+    Key3=>Key_3,
+    SW0=>SW_0,
+    SW1=>SW_1,
+    clk1=>clock_effective,
+    LDR0=>LDR_0,
+    LDR1=>LDR_1,
+    BCD=>bcd_in);
+    
+    Display: BinTo7Segment port map(
+    bin_in=>bcd_in,
+    sevseg_out=>sev_segment);
+    
+end arrange;
+  

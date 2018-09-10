@@ -1,0 +1,480 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.0sp1
+Eadder
+Z0 w1503266359
+Z1 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dD:\햞ea de Trabalho\Atividade 05
+Z6 8D:/햞ea de Trabalho/Atividade 05/nbitadder.vhd
+Z7 FD:/햞ea de Trabalho/Atividade 05/nbitadder.vhd
+l0
+L5
+VibdX916fJofBTDVSB>JU^1
+Z8 OV;C;10.1d;51
+32
+Z9 !s108 1503313412.527000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/햞ea de Trabalho/Atividade 05/nbitadder.vhd|
+Z11 !s107 D:/햞ea de Trabalho/Atividade 05/nbitadder.vhd|
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+!s100 Z`?Zn@KN^_6DA^BIO=TXJ2
+!i10b 1
+Abehaviour
+R1
+R2
+R3
+R4
+DEx4 work 5 adder 0 22 ibdX916fJofBTDVSB>JU^1
+l17
+L13
+VNTHNZ4biG>Nj[YYXVUQWg0
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 L4_400UCc?OBKhJ9zDV6A0
+!i10b 1
+Ebinbcd
+Z14 w1502819132
+R3
+R4
+R5
+Z15 8D:\햞ea de Trabalho\Atividade 05\BinBCD.vhd
+Z16 FD:\햞ea de Trabalho\Atividade 05\BinBCD.vhd
+l0
+L4
+VLY]_Ma7naiKDTg8XOUX5i3
+R8
+32
+Z17 !s108 1503313410.563000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:\햞ea de Trabalho\Atividade 05\BinBCD.vhd|
+Z19 !s107 D:\햞ea de Trabalho\Atividade 05\BinBCD.vhd|
+R12
+R13
+!s100 IZTBV:g^lkd413eUI8FW90
+!i10b 1
+Aarrange
+R3
+R4
+DEx4 work 6 binbcd 0 22 LY]_Ma7naiKDTg8XOUX5i3
+l18
+L9
+VioP6NhzYl^8U[<1BJ17Ki0
+R8
+32
+R17
+R18
+R19
+R12
+R13
+!s100 XXT:4A>l9UUgfIoT]XZPZ1
+!i10b 1
+Ebinbcdbox
+Z20 w1502819134
+R3
+R4
+R5
+Z21 8D:/햞ea de Trabalho/Atividade 05/binbcdbox.vhd
+Z22 FD:/햞ea de Trabalho/Atividade 05/binbcdbox.vhd
+l0
+L4
+VnM4n0JYgWfANZY52nFnOi1
+R8
+32
+Z23 !s108 1503313410.763000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/햞ea de Trabalho/Atividade 05/binbcdbox.vhd|
+Z25 !s107 D:/햞ea de Trabalho/Atividade 05/binbcdbox.vhd|
+R12
+R13
+!s100 ;0NSiZa59Rc_J?Q3NJIbl2
+!i10b 1
+Ackt
+R3
+R4
+DEx4 work 9 binbcdbox 0 22 nM4n0JYgWfANZY52nFnOi1
+l11
+L9
+V7Mon7Lz?2jULOal1YE`S;1
+R8
+32
+R23
+R24
+R25
+R12
+R13
+!s100 URBXWdhK=IS7PS>[m290B0
+!i10b 1
+Ebindisplay
+Z26 w1503312607
+R3
+R4
+R5
+Z27 8D:/햞ea de Trabalho/Atividade 05/BinDisplay.vhd
+Z28 FD:/햞ea de Trabalho/Atividade 05/BinDisplay.vhd
+l0
+L4
+VO@YZ2ZS2zBn09:ZFA_Abg0
+R8
+32
+Z29 !s108 1503313411.126000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/햞ea de Trabalho/Atividade 05/BinDisplay.vhd|
+Z31 !s107 D:/햞ea de Trabalho/Atividade 05/BinDisplay.vhd|
+R12
+R13
+!s100 LIK4hnH20ggUQQGa2PXg63
+!i10b 1
+Aarrange
+R3
+R4
+DEx4 work 10 bindisplay 0 22 O@YZ2ZS2zBn09:ZFA_Abg0
+l23
+L9
+VQ5jdSN;hibbeYJeBf4@W]3
+R8
+32
+R29
+R30
+R31
+R12
+R13
+!s100 i<@WmTNejL0FcERoIY3Q_2
+!i10b 1
+Ebinto7segment
+Z32 w1503313292
+R3
+R4
+R5
+Z33 8D:/햞ea de Trabalho/Atividade 05/BinTo7Segment.vhd
+Z34 FD:/햞ea de Trabalho/Atividade 05/BinTo7Segment.vhd
+l0
+L4
+VZM7@=h<e?:fdB:6g<0Uc_2
+R8
+32
+Z35 !s108 1503313411.364000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/햞ea de Trabalho/Atividade 05/BinTo7Segment.vhd|
+Z37 !s107 D:/햞ea de Trabalho/Atividade 05/BinTo7Segment.vhd|
+R12
+R13
+!s100 WA0?zDGLl52J^>k5HJVGP3
+!i10b 1
+Ackt
+R3
+R4
+DEx4 work 13 binto7segment 0 22 ZM7@=h<e?:fdB:6g<0Uc_2
+l12
+L9
+V2@1ZKj1=EW2@a:0YJic_z2
+R8
+32
+R35
+R36
+R37
+R12
+R13
+!s100 3]m^;:aN:J5f^:^_[W9Q[0
+!i10b 1
+Ebotaosincrono
+R20
+R3
+R4
+R5
+Z38 8D:/햞ea de Trabalho/Atividade 05/botaosincrono.vhd
+Z39 FD:/햞ea de Trabalho/Atividade 05/botaosincrono.vhd
+l0
+L4
+VdB;B>SGz@l^D=Zk@?MoQ02
+R8
+32
+Z40 !s108 1503313411.595000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/햞ea de Trabalho/Atividade 05/botaosincrono.vhd|
+Z42 !s107 D:/햞ea de Trabalho/Atividade 05/botaosincrono.vhd|
+R12
+R13
+!s100 TM482cYX>4T8[3T4^[m1]1
+!i10b 1
+Amde
+R3
+R4
+DEx4 work 13 botaosincrono 0 22 dB;B>SGz@l^D=Zk@?MoQ02
+l14
+L9
+V_;@I8WZG74mYc1UK]z7<Q2
+R8
+32
+R40
+R41
+R42
+R12
+R13
+!s100 SO6O?fFNJ>IH@H=^:]R700
+!i10b 1
+Eclk_div
+Z43 w1503313949
+R1
+R2
+R3
+R4
+R5
+Z44 8D:/햞ea de Trabalho/Atividade 05/clockdivisor.vhd
+Z45 FD:/햞ea de Trabalho/Atividade 05/clockdivisor.vhd
+l0
+L6
+V3k`j1UhE__T<=i;^ca?CN2
+!s100 V0?Q:T8Poi@M21oSVd`^20
+R8
+32
+!i10b 1
+Z46 !s108 1503313957.789000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/햞ea de Trabalho/Atividade 05/clockdivisor.vhd|
+Z48 !s107 D:/햞ea de Trabalho/Atividade 05/clockdivisor.vhd|
+R12
+R13
+Ackt
+R1
+R2
+R3
+R4
+DEx4 work 7 clk_div 0 22 3k`j1UhE__T<=i;^ca?CN2
+l14
+L12
+Z49 Vl1GTNQYk5jXX@?7_LiRzD1
+!s100 TIL31PzClZ]D:5Ng4Ib3b1
+R8
+32
+!i10b 1
+R46
+R47
+R48
+R12
+R13
+Emain_vmachine
+Z50 w1503313790
+R3
+R4
+R5
+Z51 8D:/햞ea de Trabalho/Atividade 05/main.vhd
+Z52 FD:/햞ea de Trabalho/Atividade 05/main.vhd
+l0
+L4
+Vl?7CJ[4mM0WjNcD^K86X62
+R8
+32
+Z53 !s108 1503313794.292000
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/햞ea de Trabalho/Atividade 05/main.vhd|
+Z55 !s107 D:/햞ea de Trabalho/Atividade 05/main.vhd|
+R12
+R13
+!s100 5@Q]d_Cnmo[9_=F2gUM[e3
+!i10b 1
+Aarrangment
+R3
+R4
+DEx4 work 13 main_vmachine 0 22 l?7CJ[4mM0WjNcD^K86X62
+l60
+L11
+VV]5kF;Ph9fAFMWXhAOmEK2
+R8
+32
+R53
+R54
+R55
+R12
+R13
+!s100 6hFmGe9U[nf7PYnoEbSBE1
+!i10b 1
+Emaquina_processador
+Z56 w1503313237
+R3
+R4
+R5
+Z57 8D:/햞ea de Trabalho/Atividade 05/vendingprocessor.vhd
+Z58 FD:/햞ea de Trabalho/Atividade 05/vendingprocessor.vhd
+l0
+L4
+VnehcmL_SAb^1T=XGK<>aO2
+R8
+32
+Z59 !s108 1503313413.966000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/햞ea de Trabalho/Atividade 05/vendingprocessor.vhd|
+Z61 !s107 D:/햞ea de Trabalho/Atividade 05/vendingprocessor.vhd|
+R12
+R13
+!s100 ZQMUOTzaB<RG=<J<8[d?S1
+!i10b 1
+Abehaviour
+R3
+R4
+DEx4 work 19 maquina_processador 0 22 nehcmL_SAb^1T=XGK<>aO2
+l49
+L14
+VD:Tlg`gQi<V@MF25=YcDb2
+R8
+32
+R59
+R60
+R61
+R12
+R13
+!s100 h[3ZOF6jfYZNG^N2FZN]H3
+!i10b 1
+Enbitcompmag
+Z62 w1503281425
+R1
+R2
+R3
+R4
+R5
+Z63 8D:/햞ea de Trabalho/Atividade 05/nbitcompmag.vhd
+Z64 FD:/햞ea de Trabalho/Atividade 05/nbitcompmag.vhd
+l0
+L5
+VVO70`l1569[:W1CV6]^JP1
+R8
+32
+Z65 !s108 1503313412.780000
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/햞ea de Trabalho/Atividade 05/nbitcompmag.vhd|
+Z67 !s107 D:/햞ea de Trabalho/Atividade 05/nbitcompmag.vhd|
+R12
+R13
+!s100 OH>mUdTM1HMG?k923a`Og1
+!i10b 1
+Acircuit
+R1
+R2
+R3
+R4
+DEx4 work 11 nbitcompmag 0 22 VO70`l1569[:W1CV6]^JP1
+l15
+L11
+VFT?IfSe5K;@il2D78I3ZR0
+R8
+32
+R65
+R66
+R67
+R12
+R13
+!s100 UL[Y>_d84gc<aR`FQlPkA3
+!i10b 1
+Enbitcounter
+Z68 w1503294362
+R1
+R2
+R3
+R4
+R5
+Z69 8D:/햞ea de Trabalho/Atividade 05/nbitcounter.vhd
+Z70 FD:/햞ea de Trabalho/Atividade 05/nbitcounter.vhd
+l0
+L5
+Vg0=A3[YkKeUi^77l0oePH1
+R8
+32
+Z71 !s108 1503313413.065000
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/햞ea de Trabalho/Atividade 05/nbitcounter.vhd|
+Z73 !s107 D:/햞ea de Trabalho/Atividade 05/nbitcounter.vhd|
+R12
+R13
+!s100 LLeW7K5W@=h^UC_Oem:J_1
+!i10b 1
+Abehv
+R1
+R2
+R3
+R4
+DEx4 work 11 nbitcounter 0 22 g0=A3[YkKeUi^77l0oePH1
+l14
+L12
+V6I:EQooj^ieOgZQi7Uz<k3
+R8
+32
+R71
+R72
+R73
+R12
+R13
+!s100 35?B<[4Zj3U`AVlXhTJBf0
+!i10b 1
+Enbitreg
+Z74 w1503276601
+R1
+R2
+R3
+R4
+R5
+Z75 8D:/햞ea de Trabalho/Atividade 05/nbitregister.vhd
+Z76 FD:/햞ea de Trabalho/Atividade 05/nbitregister.vhd
+l0
+L5
+V?zgUNTOVb7=8m90>I>4>c1
+R8
+32
+Z77 !s108 1503313413.343000
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/햞ea de Trabalho/Atividade 05/nbitregister.vhd|
+Z79 !s107 D:/햞ea de Trabalho/Atividade 05/nbitregister.vhd|
+R12
+R13
+!s100 oQMI8ineJkej3mOCzVWI82
+!i10b 1
+Abehaviour
+R1
+R2
+R3
+R4
+DEx4 work 7 nbitreg 0 22 ?zgUNTOVb7=8m90>I>4>c1
+l13
+L12
+VKfM8A[YP8VmElNm>T<<C80
+R8
+32
+R77
+R78
+R79
+R12
+R13
+!s100 A6YQ]hQCnL_@BMLgONmJO1
+!i10b 1
+Erom
+Z80 w1503287349
+R3
+R4
+R5
+Z81 8D:/햞ea de Trabalho/Atividade 05/Romsim.vhd
+Z82 FD:/햞ea de Trabalho/Atividade 05/Romsim.vhd
+l0
+L4
+VKHe7015P5^;gCP6Neg04T1
+R8
+32
+Z83 !s108 1503313413.666000
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/햞ea de Trabalho/Atividade 05/Romsim.vhd|
+Z85 !s107 D:/햞ea de Trabalho/Atividade 05/Romsim.vhd|
+R12
+R13
+!s100 0b@RcQJ?JSWHmchVjK5O00
+!i10b 1
+Abehaviour
+R3
+R4
+DEx4 work 3 rom 0 22 KHe7015P5^;gCP6Neg04T1
+l12
+L10
+Vfc]c8c7zS7S[McoTKEB7]3
+R8
+32
+R83
+R84
+R85
+R12
+R13
+!s100 RW[A^j]dB_PiMc_Yb97fE2
+!i10b 1

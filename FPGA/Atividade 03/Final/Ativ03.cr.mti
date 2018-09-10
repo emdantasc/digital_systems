@@ -1,0 +1,41 @@
+{D:/햞ea de Trabalho/Ativ03/clockdivisor.vhd} {1 {vcom -work work -2002 -explicit {D:/햞ea de Trabalho/Ativ03/clockdivisor.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CLK_Div
+-- Compiling architecture ckt of CLK_Div
+
+} {} {}} {d:/햞ea de Trabalho/Ativ03/botaosincrono.vhd} {1 {vcom -work work -2002 -explicit {D:/햞ea de Trabalho/Ativ03/botaosincrono.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity botaosincrono
+-- Compiling architecture mde of botaosincrono
+
+} {} {}} {d:/햞ea de Trabalho/Ativ03/BinTo7Segment.vhd} {1 {vcom -work work -2002 -explicit {D:/햞ea de Trabalho/Ativ03/BinTo7Segment.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BinTo7Segment
+-- Compiling architecture ckt of BinTo7Segment
+
+} {} {}} {d:/햞ea de Trabalho/Ativ03/cofre_main.vhd} {1 {vcom -work work -2002 -explicit {D:/햞ea de Trabalho/Ativ03/cofre_main.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cofre_main
+-- Compiling architecture arrange of cofre_main
+
+} {} {}} {d:/햞ea de Trabalho/Ativ03/cofre.vhd} {1 {vcom -work work -2002 -explicit {D:/햞ea de Trabalho/Ativ03/cofre.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cofre
+-- Compiling architecture construction of cofre
+
+} {} {}}

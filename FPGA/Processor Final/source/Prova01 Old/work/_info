@@ -1,0 +1,459 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.0sp1
+Ealu_async
+Z0 w1504545597
+Z1 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dD:\Desktop\Processor
+Z6 8D:/Desktop/Processor/ALU-Async.vhd
+Z7 FD:/Desktop/Processor/ALU-Async.vhd
+l0
+L5
+Vc_05_VQ=LeYZz6DLI`kYK3
+Z8 OV;C;10.1d;51
+32
+Z9 !s108 1505852692.634000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processor/ALU-Async.vhd|
+Z11 !s107 D:/Desktop/Processor/ALU-Async.vhd|
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+!s100 =^4nb5_jTjK<<8^U7l1cd0
+!i10b 1
+Aarrangment
+R1
+R2
+R3
+R4
+DEx4 work 9 alu_async 0 22 c_05_VQ=LeYZz6DLI`kYK3
+l51
+L24
+VnECjHBAm[Dj@zYoAHgDnP0
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 2[n[8glNWNI6SgD1d9T`W2
+!i10b 1
+Ebinto7segment
+Z14 w1503499237
+R3
+R4
+R5
+Z15 8D:/Desktop/Processor/BinTo7Segment.vhd
+Z16 FD:/Desktop/Processor/BinTo7Segment.vhd
+l0
+L4
+VZM7@=h<e?:fdB:6g<0Uc_2
+R8
+32
+Z17 !s108 1505852693.415000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processor/BinTo7Segment.vhd|
+Z19 !s107 D:/Desktop/Processor/BinTo7Segment.vhd|
+R12
+R13
+!s100 WA0?zDGLl52J^>k5HJVGP3
+!i10b 1
+Ackt
+R3
+R4
+DEx4 work 13 binto7segment 0 22 ZM7@=h<e?:fdB:6g<0Uc_2
+l12
+L9
+VWL11Kf3[Edj;N<jS?>]5D1
+R8
+32
+R17
+R18
+R19
+R12
+R13
+!s100 KTDSz10KUThlWjjS3ZDO32
+!i10b 1
+Eclock_generator
+Z20 w1504301145
+Z21 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R3
+R4
+R5
+Z22 8D:/Desktop/Processor/clockdiv.vhd
+Z23 FD:/Desktop/Processor/clockdiv.vhd
+l0
+L5
+V0kbQSX`;LQoPgM==f<H]a1
+R8
+32
+Z24 !s108 1505852696.415000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processor/clockdiv.vhd|
+Z26 !s107 D:/Desktop/Processor/clockdiv.vhd|
+R12
+R13
+!s100 Y[R07<i;J6S[HH?1niVGG3
+!i10b 1
+Artl
+R21
+R3
+R4
+DEx4 work 15 clock_generator 0 22 0kbQSX`;LQoPgM==f<H]a1
+l29
+L12
+VKWll[KC>9cjScSIX9?ozH2
+R8
+32
+R24
+R25
+R26
+R12
+R13
+!s100 glD?]<J7eaR4^kLbjVF0<3
+!i10b 1
+Emain
+Z27 w1505855276
+R1
+R2
+R3
+R4
+R5
+Z28 8D:\Desktop\Processor\main.vhd
+Z29 FD:\Desktop\Processor\main.vhd
+l0
+L5
+VgEa0fVfVb@PMHW]JhT<Yn0
+!s100 Fh9b7_fn?4NeW7k5A[;[N2
+R8
+32
+!i10b 1
+Z30 !s108 1505855309.225000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:\Desktop\Processor\main.vhd|
+Z32 !s107 D:\Desktop\Processor\main.vhd|
+R12
+R13
+Aarrange
+R1
+R2
+R3
+R4
+Z33 DEx4 work 4 main 0 22 gEa0fVfVb@PMHW]JhT<Yn0
+l42
+L16
+VfhEKRBZ@8Ao:Gc3;Mf^F21
+!s100 lKZ0iZ:F2>aA2G`;JTjz:0
+R8
+32
+!i10b 1
+R30
+R31
+R32
+R12
+R13
+Enbitadder
+Z34 w1504545522
+R1
+R2
+R3
+R4
+R5
+Z35 8D:/Desktop/Processor/nbitadder.vhd
+Z36 FD:/Desktop/Processor/nbitadder.vhd
+l0
+L5
+VKYI`4JcMUBfnReznOI0`;2
+R8
+32
+Z37 !s108 1505852713.566000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processor/nbitadder.vhd|
+Z39 !s107 D:/Desktop/Processor/nbitadder.vhd|
+R12
+R13
+!s100 W5<FF>a6B@QG2lomkF^i?2
+!i10b 1
+Abehaviour
+R1
+R2
+R3
+R4
+DEx4 work 9 nbitadder 0 22 KYI`4JcMUBfnReznOI0`;2
+l17
+L13
+V64JNfSMW`_5K6T6zUSj210
+R8
+32
+R37
+R38
+R39
+R12
+R13
+!s100 UaRfi?QXL6GARUCcBYFc@0
+!i10b 1
+Enbitcompmag
+Z40 w1504301155
+R1
+R2
+R3
+R4
+R5
+Z41 8D:/Desktop/Processor/nbitcompmag.vhd
+Z42 FD:/Desktop/Processor/nbitcompmag.vhd
+l0
+L5
+VVO70`l1569[:W1CV6]^JP1
+R8
+32
+Z43 !s108 1505852714.129000
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processor/nbitcompmag.vhd|
+Z45 !s107 D:/Desktop/Processor/nbitcompmag.vhd|
+R12
+R13
+!s100 OH>mUdTM1HMG?k923a`Og1
+!i10b 1
+Acircuit
+R1
+R2
+R3
+R4
+DEx4 work 11 nbitcompmag 0 22 VO70`l1569[:W1CV6]^JP1
+l15
+L11
+VFT?IfSe5K;@il2D78I3ZR0
+R8
+32
+R43
+R44
+R45
+R12
+R13
+!s100 UL[Y>_d84gc<aR`FQlPkA3
+!i10b 1
+Enbitcounter
+Z46 w1504348967
+R1
+R2
+R3
+R4
+R5
+Z47 8D:/Desktop/Processor/nbitcounter.vhd
+Z48 FD:/Desktop/Processor/nbitcounter.vhd
+l0
+L5
+VOG;7n]kBlk=`TRhi^fNAc2
+R8
+32
+Z49 !s108 1505852714.645000
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processor/nbitcounter.vhd|
+Z51 !s107 D:/Desktop/Processor/nbitcounter.vhd|
+R12
+R13
+!s100 0mnfkD67nBi5L0dW_bR<W3
+!i10b 1
+Abehv
+R1
+R2
+R3
+R4
+DEx4 work 11 nbitcounter 0 22 OG;7n]kBlk=`TRhi^fNAc2
+l15
+L13
+VFCmZUoDFaFmIcHRnodeVh1
+R8
+32
+R49
+R50
+R51
+R12
+R13
+!s100 <[AIJbcfU0Gm9U[39<GP`2
+!i10b 1
+Enbitreg
+Z52 w1504404068
+R1
+R2
+R3
+R4
+R5
+Z53 8D:/Desktop/Processor/nbitregister.vhd
+Z54 FD:/Desktop/Processor/nbitregister.vhd
+l0
+L5
+V0=DRGT5Ko4_3Jc0Q8WR>i1
+R8
+32
+Z55 !s108 1505852715.160000
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processor/nbitregister.vhd|
+Z57 !s107 D:/Desktop/Processor/nbitregister.vhd|
+R12
+R13
+!s100 ]4DzPdT_oTKICHkV7o_eD0
+!i10b 1
+Abehaviour
+R1
+R2
+R3
+R4
+DEx4 work 7 nbitreg 0 22 0=DRGT5Ko4_3Jc0Q8WR>i1
+l13
+L12
+VLa]3RW>AR2z_ETP]<>6k12
+R8
+32
+R55
+R56
+R57
+R12
+R13
+!s100 C:R0UiPPEVXbl2DZWe>QU2
+!i10b 1
+Enbitregisterbank
+Z58 w1504532058
+R1
+R2
+R3
+R4
+R5
+Z59 8D:/Desktop/Processor/nbitregisterbank.vhd
+Z60 FD:/Desktop/Processor/nbitregisterbank.vhd
+l0
+L5
+V@K=hGDOWMYFce2^?05K4_3
+R8
+32
+Z61 !s108 1505852715.973000
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processor/nbitregisterbank.vhd|
+Z63 !s107 D:/Desktop/Processor/nbitregisterbank.vhd|
+R12
+R13
+!s100 H81?KXzn77g<`BSAI`geo0
+!i10b 1
+Aarrange
+R1
+R2
+R3
+R4
+DEx4 work 16 nbitregisterbank 0 22 @K=hGDOWMYFce2^?05K4_3
+l27
+L14
+VD@MGVOe0_41dMeQ][80b:0
+R8
+32
+R61
+R62
+R63
+R12
+R13
+!s100 ;R]=[^Kae[kYaECdTAFX61
+!i10b 1
+Enbitshifter
+Z64 w1505242934
+R3
+R4
+R5
+Z65 8D:/Desktop/Processor/Shifter.vhd
+Z66 FD:/Desktop/Processor/Shifter.vhd
+l0
+L4
+V;8XS]kbZhRM34Z^]dicb10
+R8
+32
+Z67 !s108 1505852717.535000
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processor/Shifter.vhd|
+Z69 !s107 D:/Desktop/Processor/Shifter.vhd|
+R12
+R13
+!s100 fEkb_Iigk^az3^O^mCcKm0
+!i10b 1
+Abehaviour
+R3
+R4
+DEx4 work 11 nbitshifter 0 22 ;8XS]kbZhRM34Z^]dicb10
+l42
+L14
+V]GJXCk9LD7GH9e69KWdOA1
+R8
+32
+R67
+R68
+R69
+R12
+R13
+!s100 7[V0TX6B:4bhTUdFiS6kV1
+!i10b 1
+Eprocessador
+Z70 w1505854722
+R1
+R2
+R3
+R4
+R5
+Z71 8D:/Desktop/Processor/processador.vhd
+Z72 FD:/Desktop/Processor/processador.vhd
+l0
+L5
+VjXo]aHe[hdEYzMZ0AYkjH0
+R8
+32
+Z73 !s108 1505854752.697000
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processor/processador.vhd|
+Z75 !s107 D:/Desktop/Processor/processador.vhd|
+R12
+R13
+!s100 TPnn2R4=9T@8di5SiJYH90
+!i10b 1
+Aarrangment
+R1
+R2
+R3
+R4
+DEx4 work 11 processador 0 22 jXo]aHe[hdEYzMZ0AYkjH0
+l81
+L14
+VbI2I[C6BKM5XJLf;klzC;3
+R8
+32
+R73
+R74
+R75
+R12
+R13
+!s100 iOUcA;z_0cFMjXMJcCD<:3
+!i10b 1
+Eram
+Z76 w1504473443
+R3
+R4
+R5
+Z77 8D:/Desktop/Processor/RAM.vhd
+Z78 FD:/Desktop/Processor/RAM.vhd
+l0
+L42
+V1@5G]<O?aGn@XO?mOTk^k1
+R8
+32
+Z79 !s108 1505852717.020000
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Processor/RAM.vhd|
+Z81 !s107 D:/Desktop/Processor/RAM.vhd|
+R12
+R13
+!s100 HRG3nSV1T:DYSCY;KJ]Z_1
+!i10b 1
+Asyn
+R3
+R4
+DEx4 work 3 ram 0 22 1@5G]<O?aGn@XO?mOTk^k1
+l106
+L58
+VU1AGGK>QPdeJQI_7Z]4c51
+R8
+32
+R79
+R80
+R81
+R12
+R13
+!s100 5hiF0EaPX0KaV;Q[1aj?i2
+!i10b 1

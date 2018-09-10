@@ -1,0 +1,305 @@
+m255
+K3
+13
+cModel Technology
+dD:\Desktop\Luiza
+Edatamemory
+Z0 w1503875726
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dD:\Desktop\Atividade 08
+Z4 8D:/Desktop/Atividade 08/DataMemory.vhd
+Z5 FD:/Desktop/Atividade 08/DataMemory.vhd
+l0
+L42
+V>EMkajE1cRRG3H;zIFDXk1
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1503909979.812000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Atividade 08/DataMemory.vhd|
+Z9 !s107 D:/Desktop/Atividade 08/DataMemory.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 HiNdXgcJg=kbEa2a1h[CS1
+!i10b 1
+Asyn
+R1
+R2
+DEx4 work 10 datamemory 0 22 >EMkajE1cRRG3H;zIFDXk1
+l105
+L58
+VTllViz=_>FTRmdJckORZj3
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 U`Wzi619]N<Qf7P63aVfJ0
+!i10b 1
+Einstructionrom
+Z12 w1503872567
+R1
+R2
+R3
+Z13 8D:/Desktop/Atividade 08/InstructionROM.vhd
+Z14 FD:/Desktop/Atividade 08/InstructionROM.vhd
+l0
+L42
+VU@hbo0m@6gzKl6VU:Ac]Q3
+R6
+32
+Z15 !s108 1503909980.073000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Atividade 08/InstructionROM.vhd|
+Z17 !s107 D:/Desktop/Atividade 08/InstructionROM.vhd|
+R10
+R11
+!s100 >ILc]O0RZ77ZbS6j;R@DL0
+!i10b 1
+Asyn
+R1
+R2
+DEx4 work 14 instructionrom 0 22 U@hbo0m@6gzKl6VU:Ac]Q3
+l81
+L52
+V23aUlo8Ff``8;7ceE^UFe2
+R6
+32
+R15
+R16
+R17
+R10
+R11
+!s100 CTQc^ia:PQ?bY6md]eNc;0
+!i10b 1
+Enbit16registerbank
+Z18 w1503881375
+Z19 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z20 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R1
+R2
+R3
+Z21 8D:/Desktop/Atividade 08/nbitregisterbank.vhd
+Z22 FD:/Desktop/Atividade 08/nbitregisterbank.vhd
+l0
+L5
+VV]FcJ4M8LhJK:dOzOllNU3
+R6
+32
+Z23 !s108 1503909982.688000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Atividade 08/nbitregisterbank.vhd|
+Z25 !s107 D:/Desktop/Atividade 08/nbitregisterbank.vhd|
+R10
+R11
+!s100 <o4UM=:ZHA9PK6AKZ1Y=^2
+!i10b 1
+Aarrange
+R19
+R20
+R1
+R2
+DEx4 work 18 nbit16registerbank 0 22 V]FcJ4M8LhJK:dOzOllNU3
+l29
+L14
+VB9nAhUgP]W5;@oO6Q`]210
+R6
+32
+R23
+R24
+R25
+R10
+R11
+!s100 ?Oz6[SYdaL0VfO>^@G;]50
+!i10b 1
+Enbitadder
+Z26 w1503499238
+R19
+R20
+R1
+R2
+R3
+Z27 8D:/Desktop/Atividade 08/nbitadder.vhd
+Z28 FD:/Desktop/Atividade 08/nbitadder.vhd
+l0
+L5
+VKYI`4JcMUBfnReznOI0`;2
+R6
+32
+Z29 !s108 1503909980.392000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Atividade 08/nbitadder.vhd|
+Z31 !s107 D:/Desktop/Atividade 08/nbitadder.vhd|
+R10
+R11
+!s100 W5<FF>a6B@QG2lomkF^i?2
+!i10b 1
+Abehaviour
+R19
+R20
+R1
+R2
+DEx4 work 9 nbitadder 0 22 KYI`4JcMUBfnReznOI0`;2
+l17
+L13
+V64JNfSMW`_5K6T6zUSj210
+R6
+32
+R29
+R30
+R31
+R10
+R11
+!s100 UaRfi?QXL6GARUCcBYFc@0
+!i10b 1
+Enbitcounter
+Z32 w1503374708
+R19
+R20
+R1
+R2
+R3
+Z33 8D:/Desktop/Atividade 08/nbitcounter.vhd
+Z34 FD:/Desktop/Atividade 08/nbitcounter.vhd
+l0
+L5
+Vg0=A3[YkKeUi^77l0oePH1
+R6
+32
+Z35 !s108 1503909981.349000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Atividade 08/nbitcounter.vhd|
+Z37 !s107 D:/Desktop/Atividade 08/nbitcounter.vhd|
+R10
+R11
+!s100 LLeW7K5W@=h^UC_Oem:J_1
+!i10b 1
+Abehv
+R19
+R20
+R1
+R2
+DEx4 work 11 nbitcounter 0 22 g0=A3[YkKeUi^77l0oePH1
+l14
+L12
+V;R@MHRK9No4fEFGOT:>H[3
+R6
+32
+R35
+R36
+R37
+R10
+R11
+!s100 cZj?22c5ZUa3m68:Di1CL0
+!i10b 1
+Enbitmux
+R32
+R19
+R20
+R1
+R2
+R3
+Z38 8D:/Desktop/Atividade 08/nbitmux.vhd
+Z39 FD:/Desktop/Atividade 08/nbitmux.vhd
+l0
+L5
+VMa9TMH?PYoINjNc0A<gFT1
+R6
+32
+Z40 !s108 1503909981.733000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Atividade 08/nbitmux.vhd|
+Z42 !s107 D:/Desktop/Atividade 08/nbitmux.vhd|
+R10
+R11
+!s100 ldnAi3g8]Uo?64HlBjYhG1
+!i10b 1
+Acircuit
+R19
+R20
+R1
+R2
+DEx4 work 7 nbitmux 0 22 Ma9TMH?PYoINjNc0A<gFT1
+l14
+L12
+VghnLjQgkM_N86[T0CoFH70
+R6
+32
+R40
+R41
+R42
+R10
+R11
+!s100 <iDRXljLP8cKoA;Af]RlU3
+!i10b 1
+Enbitreg
+R32
+R19
+R20
+R1
+R2
+R3
+Z43 8D:/Desktop/Atividade 08/nbitregister.vhd
+Z44 FD:/Desktop/Atividade 08/nbitregister.vhd
+l0
+L5
+V?zgUNTOVb7=8m90>I>4>c1
+R6
+32
+Z45 !s108 1503909982.358000
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Atividade 08/nbitregister.vhd|
+Z47 !s107 D:/Desktop/Atividade 08/nbitregister.vhd|
+R10
+R11
+!s100 oQMI8ineJkej3mOCzVWI82
+!i10b 1
+Abehaviour
+R19
+R20
+R1
+R2
+DEx4 work 7 nbitreg 0 22 ?zgUNTOVb7=8m90>I>4>c1
+l13
+L12
+Vh05K916kZR923nihQo9Lz1
+R6
+32
+R45
+R46
+R47
+R10
+R11
+!s100 AkeH0CU1I:nKke]egYgHz2
+!i10b 1
+Eprocessador_machine
+Z48 w1503920466
+R1
+R2
+R3
+Z49 8D:/Desktop/Atividade 08/processor_machine.vhd
+Z50 FD:/Desktop/Atividade 08/processor_machine.vhd
+l0
+L4
+VMaXgb?W:^F6b_1[[IN=0e0
+!s100 gn1ja_^DE_BY0PK[o:M9Q0
+R6
+32
+!i10b 1
+Z51 !s108 1503920476.418000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Desktop/Atividade 08/processor_machine.vhd|
+Z53 !s107 D:/Desktop/Atividade 08/processor_machine.vhd|
+R10
+R11
+Aarrangment
+R1
+R2
+Z54 DEx4 work 19 processador_machine 0 22 MaXgb?W:^F6b_1[[IN=0e0
+l57
+L11
+VfDb@EAG[XZ;cjgzGkQRD32
+!s100 oWfM2MR1B]QDf52??FaMB0
+R6
+32
+!i10b 1
+R51
+R52
+R53
+R10
+R11

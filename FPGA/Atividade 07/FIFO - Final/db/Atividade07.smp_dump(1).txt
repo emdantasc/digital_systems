@@ -1,0 +1,14 @@
+
+State Machine - |main_FIFO|FIFO_machine:mchn|state
+Name state.opere state.descarregue state.carregue state.espere state.zero 
+state.zero 0 0 0 0 0 
+state.espere 0 0 0 1 1 
+state.carregue 0 0 1 0 1 
+state.descarregue 0 1 0 0 1 
+state.opere 1 0 0 0 1 
+
+State Machine - |main_FIFO|botaosincrono:bsk2|estado
+Name estado.caso_c estado.caso_b estado.caso_a 
+estado.caso_a 0 0 0 
+estado.caso_b 0 1 1 
+estado.caso_c 1 0 1 

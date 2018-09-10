@@ -1,0 +1,81 @@
+d:/Desktop/Processador/ALU.vhd {1 {vcom -work work -2002 -explicit D:/Desktop/Processador/ALU.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity ALU
+-- Compiling architecture arrange of ALU
+
+} {} {}} d:/Desktop/Processador/nbitregister.vhd {1 {vcom -work work -2002 -explicit D:/Desktop/Processador/nbitregister.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitreg
+-- Compiling architecture behaviour of nbitreg
+
+} {} {}} d:/Desktop/Processador/nbitmux.vhd {1 {vcom -work work -2002 -explicit D:/Desktop/Processador/nbitmux.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitmux
+-- Compiling architecture circuit of nbitmux
+
+} {} {}} d:/Desktop/Processador/clockdiv.vhd {1 {vcom -work work -2002 -explicit D:/Desktop/Processador/clockdiv.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity clock_generator
+-- Compiling architecture rtl of clock_generator
+
+} {} {}} d:/Desktop/Processador/4x1nbitmux.vhd {1 {vcom -work work -2002 -explicit D:/Desktop/Processador/4x1nbitmux.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitmux4x1
+-- Compiling architecture arrangment of nbitmux4x1
+
+} {} {}} d:/Desktop/Processador/nbitcounter.vhd {1 {vcom -work work -2002 -explicit D:/Desktop/Processador/nbitcounter.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitcounter
+-- Compiling architecture behv of nbitcounter
+
+} {} {}} d:/Desktop/Processador/nbitcompmag.vhd {1 {vcom -work work -2002 -explicit D:/Desktop/Processador/nbitcompmag.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitcompmag
+-- Compiling architecture circuit of nbitcompmag
+
+} {} {}} d:/Desktop/Processador/nbitadder.vhd {1 {vcom -work work -2002 -explicit D:/Desktop/Processador/nbitadder.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitadder
+-- Compiling architecture behaviour of nbitadder
+
+} {} {}}

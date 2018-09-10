@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Atividade07">
+		<CBX_INST_ENTRY INSTANCE_NAME="|main_FIFO|Data_ROM:ROM|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_c081.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

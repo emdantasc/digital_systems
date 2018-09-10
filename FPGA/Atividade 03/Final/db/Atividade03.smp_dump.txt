@@ -1,0 +1,35 @@
+
+State Machine - |cofre_main|cofre:Safety|state
+Name state.error state.sucesso state.insert5 state.insert4 state.insert3 state.insert2 state.insert1 state.inicio 
+state.inicio 0 0 0 0 0 0 0 0 
+state.insert1 0 0 0 0 0 0 1 1 
+state.insert2 0 0 0 0 0 1 0 1 
+state.insert3 0 0 0 0 1 0 0 1 
+state.insert4 0 0 0 1 0 0 0 1 
+state.insert5 0 0 1 0 0 0 0 1 
+state.sucesso 0 1 0 0 0 0 0 1 
+state.error 1 0 0 0 0 0 0 1 
+
+State Machine - |cofre_main|cofre:Safety|botaosincrono:BS3|estado
+Name estado.caso_c estado.caso_b estado.caso_a 
+estado.caso_a 0 0 0 
+estado.caso_b 0 1 1 
+estado.caso_c 1 0 1 
+
+State Machine - |cofre_main|cofre:Safety|botaosincrono:BS2|estado
+Name estado.caso_c estado.caso_b estado.caso_a 
+estado.caso_a 0 0 0 
+estado.caso_b 0 1 1 
+estado.caso_c 1 0 1 
+
+State Machine - |cofre_main|cofre:Safety|botaosincrono:BS1|estado
+Name estado.caso_c estado.caso_b estado.caso_a 
+estado.caso_a 0 0 0 
+estado.caso_b 0 1 1 
+estado.caso_c 1 0 1 
+
+State Machine - |cofre_main|cofre:Safety|botaosincrono:BS0|estado
+Name estado.caso_c estado.caso_b estado.caso_a 
+estado.caso_a 0 0 0 
+estado.caso_b 0 1 1 
+estado.caso_c 1 0 1 

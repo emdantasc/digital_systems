@@ -1,0 +1,122 @@
+{d:/햞ea de Trabalho/Atividade 07/nbitregister.vhd} {1 {vcom -work work -2002 -explicit {D:/햞ea de Trabalho/Atividade 07/nbitregister.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitreg
+-- Compiling architecture behaviour of nbitreg
+
+} {} {}} {d:/햞ea de Trabalho/Atividade 07/binbcdbox.vhd} {1 {vcom -work work -2002 -explicit {D:/햞ea de Trabalho/Atividade 07/binbcdbox.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity binbcdbox
+-- Compiling architecture ckt of binbcdbox
+
+} {} {}} {d:/햞ea de Trabalho/Atividade 07/nbitcounter.vhd} {1 {vcom -work work -2002 -explicit {D:/햞ea de Trabalho/Atividade 07/nbitcounter.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitcounter
+-- Compiling architecture behv of nbitcounter
+
+} {} {}} {d:/햞ea de Trabalho/Atividade 07/nbitmux.vhd} {1 {vcom -work work -2002 -explicit {D:/햞ea de Trabalho/Atividade 07/nbitmux.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitmux
+-- Compiling architecture circuit of nbitmux
+
+} {} {}} {d:/햞ea de Trabalho/Atividade 07/Data_ROM.vhd} {1 {vcom -work work -2002 -explicit {D:/햞ea de Trabalho/Atividade 07/Data_ROM.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Data_ROM
+-- Compiling architecture SYN of data_rom
+
+} {} {}} {d:/햞ea de Trabalho/Atividade 07/FIFO_machine.vhd} {1 {vcom -work work -2002 -explicit {D:\햞ea de Trabalho\Atividade 07\FIFO_machine.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FIFO_machine
+-- Compiling architecture behaviour of FIFO_machine
+
+} {} {}} {d:/햞ea de Trabalho/Atividade 07/main_FIFO.vhd} {1 {vcom -work work -2002 -explicit {D:/햞ea de Trabalho/Atividade 07/main_FIFO.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity main_FIFO
+-- Compiling architecture arrange of main_FIFO
+
+} {} {}} {d:/햞ea de Trabalho/Atividade 07/nbitcompmag.vhd} {1 {vcom -work work -2002 -explicit {D:/햞ea de Trabalho/Atividade 07/nbitcompmag.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity nbitcompmag
+-- Compiling architecture circuit of nbitcompmag
+
+} {} {}} {d:/햞ea de Trabalho/Atividade 07/BinBCD.vhd} {1 {vcom -work work -2002 -explicit {D:/햞ea de Trabalho/Atividade 07/BinBCD.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BinBCD
+-- Compiling architecture arrange of BinBCD
+
+} {} {}} {d:/햞ea de Trabalho/Atividade 07/BinTo7Segment.vhd} {1 {vcom -work work -2002 -explicit {D:/햞ea de Trabalho/Atividade 07/BinTo7Segment.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BinTo7Segment
+-- Compiling architecture ckt of BinTo7Segment
+
+} {} {}} {d:/햞ea de Trabalho/Atividade 07/FILO_machine.vhd} {1 {vcom -work work -2002 -explicit {D:/햞ea de Trabalho/Atividade 07/FILO_machine.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FIFO_machine
+-- Compiling architecture behaviour of FIFO_machine
+
+} {} {}} {d:/햞ea de Trabalho/Atividade 07/BinDisplay.vhd} {1 {vcom -work work -2002 -explicit {D:/햞ea de Trabalho/Atividade 07/BinDisplay.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BinDisplay
+-- Compiling architecture arrange of BinDisplay
+
+} {} {}} {d:/햞ea de Trabalho/Atividade 07/clockdiv.vhd} {1 {vcom -work work -2002 -explicit {D:/햞ea de Trabalho/Atividade 07/clockdiv.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity clock_generator
+-- Compiling architecture rtl of clock_generator
+
+} {} {}} {d:/햞ea de Trabalho/Atividade 07/botaosincrono.vhd} {1 {vcom -work work -2002 -explicit {D:/햞ea de Trabalho/Atividade 07/botaosincrono.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity botaosincrono
+-- Compiling architecture mde of botaosincrono
+
+} {} {}}

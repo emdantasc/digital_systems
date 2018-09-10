@@ -1,0 +1,194 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity FIFO_machine is
+  port(	wr_switch, rd_switch, start, clr_fifo, clk_maq: in std_logic;
+		write_data: in std_logic_vector(15 downto 0);
+		read_data: out std_logic_vector(15 downto 0);
+		out_state: out std_logic_vector(3 downto 0);
+		empty, full, ld_count_rom: out std_logic
+	);
+end FIFO_machine;
+
+architecture behaviour of FIFO_machine is
+	
+	component nbitreg is
+		generic(n: natural :=8);
+		port( data_entry: in std_logic_vector (n-1 downto 0);
+			  enable, clk, clear: in std_logic;
+			  data_out: buffer std_logic_vector(n-1 downto 0));
+	end component;
+	
+	component nbitmux is
+		generic(n: natural :=8);
+		port( A_in, B_in: in std_logic_vector (n-1 downto 0);
+			  selector: in std_logic;
+			  S_out: out std_logic_vector(n-1 downto 0));
+	end component;
+	
+	component nbitcounter is
+		generic(n: natural :=4);
+		port(	clock, clear, enable, updown:	in std_logic;
+				out_cont:	buffer std_logic_vector(n-1 downto 0));
+	end component;
+	
+	component nbitcompmag is
+		generic(n: natural :=8);
+		port( A_data, B_data: in std_logic_vector(n-1 downto 0);
+			  out_gt, out_lt, out_eq: out std_logic);
+	end component;
+	
+	type inter_data is array (0 to 15) of std_logic_vector(15 downto 0);
+	signal out_reg : inter_data;
+	signal out_mux: std_logic_vector(15 downto 0);
+	signal fifo_cont: std_logic_vector(7 downto 0);
+	signal ld_reg, clr_reg, mux_sel, ld_cont, clr_cnt, updown_cont, if_zero, if_sixteen: std_logic;
+	
+	type estado is (zero, espere, carregue, descarregue, opere);
+	signal state: estado:=zero;
+	
+begin
+
+-- inicio da fsm
+
+	controller: process (clk_maq, if_zero, if_sixteen, wr_switch, rd_switch, clr_fifo, state, start)
+		begin
+		
+		if(clr_fifo='1') then state<=zero;
+		
+		elsif (clk_maq'event and clk_maq='1') then
+			case state is
+				when zero => state<=espere;
+				when espere =>
+					if(wr_switch='1' and rd_switch='0' and if_sixteen='0' and start='1') then state<=carregue;
+					elsif (wr_switch='0' and rd_switch='1' and if_zero='0' and start='1') then state<=descarregue;
+					else state<=espere;
+					end if;
+				when carregue => state<=opere;
+				when descarregue => state<=opere;
+				when opere =>
+					if(rd_switch='1' and if_zero='0') then state<=descarregue;
+					elsif(wr_switch='1' and if_sixteen='0') then state<=carregue;
+					else state<=espere;
+					end if;
+			end case;
+		else state<=state;
+		end if;
+	end process controller;
+		
+		with state select ld_reg <=
+			'1' when carregue,
+			'1' when descarregue,
+			'0' when others;
+		
+		with state select clr_reg <=
+			'1' when zero,
+			'0' when others;
+			
+		with state select mux_sel <=
+			'0' when carregue,
+			'1' when descarregue,
+			'0' when others;
+			
+		with state select updown_cont<=
+			'0' when carregue,
+			'1' when descarregue,
+			'1' when others;
+		
+		with state select ld_cont<=
+			'1' when carregue,
+			'1' when descarregue,
+			'0' when others;
+		
+		with state select clr_cnt<=
+			'1' when zero,
+			'0' when others;
+			
+		with state select out_state<=
+			"0000" when zero, --show 0
+			"1110" when espere, --show E
+			"1100" when carregue, --show C
+			"1101" when descarregue,--show d
+			"1111" when opere, --show F
+			"0001" when others;
+			
+		empty<=if_zero; 
+		full<=if_sixteen;
+		ld_count_rom<=ld_cont and not updown_cont;
+		
+-- fim da fsm
+
+--inicio do datapath
+
+	reg00: nbitreg
+		generic map(n=>16)
+		port map(
+			data_entry=>out_mux,
+			enable=>ld_reg,
+			clk=>clk_maq,
+			clear=>clr_reg,
+			data_out=>out_reg(0));
+	
+	mx00: nbitmux
+		generic map(n=>16)
+		port map(
+		A_in=>write_data,
+		B_in=>"0000000000000000",
+		selector=>mux_sel,
+		S_out=>out_mux);
+			
+	reg: for i in 1 to 14 generate
+		
+		reg: nbitreg
+			generic map(n=>16)
+			port map(
+				data_entry=>out_reg(i-1),
+				enable=>ld_reg,
+				clk=>clk_maq,
+				clear=>clr_reg,
+				data_out=>out_reg(i));	
+	
+	end generate reg;
+
+	reg15: nbitreg
+		generic map(n=>16)
+		port map(
+			data_entry=>out_reg(14),
+			enable=>ld_reg,
+			clk=>clk_maq,
+			clear=>clr_reg,
+			data_out=>out_reg(15));
+			
+	cnt: nbitcounter
+		generic map(n=>8)
+		port map(
+			clock=>clk_maq, 
+			clear=>clr_cnt, 
+			enable=>ld_cont, 
+			updown=>updown_cont,
+			out_cont=>fifo_cont);
+	
+	comp0: nbitcompmag
+		generic map(n=>8)
+		port map(
+			A_data=>"00000000", 
+			B_data=>fifo_cont,
+			out_eq=>if_zero);
+	
+	comp16: nbitcompmag
+		generic map(n=>8)
+		port map(
+			A_data=>"00010000", 
+			B_data=>fifo_cont,
+			out_eq=>if_sixteen);
+	
+	rdmux: nbitmux
+			generic map(n=>16)
+			port map(
+				A_in=>"0000000000000000",
+				B_in=>read_data,
+				selector=>rd_switch,
+				S_out=>read_data);
+	
+
+end behaviour;
