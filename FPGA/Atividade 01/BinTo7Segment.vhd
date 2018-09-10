@@ -11,14 +11,6 @@ architecture ckt of BinTo7Segment is
 
 begin
   
-  --sevseg_out(0)<=(bin_in(1) and not bin_in(0)) or (not bin_in(3) and bin_in(1)) or (bin_in(2) and bin_in(1)) or (bin_in(3) and not bin_in(0)) or (not bin_in(3) and (bin_in(2) xnor bin_in(0))) or (bin_in(3) and not bin_in(2) and not bin_in(1));
-  --sevseg_out(1)<=(not bin_in(3) and not bin_in(2)) or (not bin_in(2) and not bin_in(0)) or (not bin_in(3) and not bin_in(1) and not bin_in(0)) or (not bin_in(3) and bin_in(1) and bin_in(0)) or (bin_in(3) and not bin_in(1) and bin_in(0));
-  --sevseg_out(2)<=(not bin_in(3) and (bin_in(2) or not bin_in(1) or bin_in(0))) or (bin_in(3) and not bin_in(2)) or (not bin_in(1) and bin_in(0));
-  --sevseg_out(3)<=(not bin_in(2) and (bin_in(1) xnor bin_in(0))) or (bin_in(2) and (bin_in(1) xor bin_in(0))) or (not bin_in(0) and (bin_in(3) xor bin_in(1)));
-  --sevseg_out(4)<=(bin_in(3) and bin_in(2)) or (bin_in(3) and bin_in(1)) or (bin_in(1) and not bin_in(0)) or (not bin_in(2) and not bin_in(0));
-  --sevseg_out(5)<=(not bin_in(1) and not bin_in(0)) or (bin_in(3) and not bin_in(2)) or (bin_in(2) and not bin_in(0)) or (not bin_in(3) and bin_in(2) and not bin_in(1)) or (bin_in(3) and bin_in(1) and bin_in(0));
-  --sevseg_out(6)<=(bin_in(1) and not bin_in(0)) or (bin_in(3) and not bin_in(2)) or (bin_in(3) and bin_in(0)) or (not bin_in(2) and bin_in(1)) or (not bin_in(3) and bin_in(2) and not bin_in(1));
-
 	with bin_in select sevseg<=
 		"1111110" when "0000",
 		"0110000" when "0001",
